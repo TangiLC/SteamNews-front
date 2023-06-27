@@ -1,0 +1,29 @@
+.latest-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .news-item {
+    width: 48%;
+    padding: 10px;
+  }
+
+  @media (max-width:768px){
+    .news-item {
+        width:98%;
+    }
+  }
+
+  .news-name {
+    font-weight: bold;
+  }
+  
+  .news-date {
+    font-weight: bold;
+  }
+  
+  .news-content {
+    margin-top: 5px;
+  }
+  
