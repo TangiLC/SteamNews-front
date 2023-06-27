@@ -25,7 +25,7 @@ const LatestNews = () => {
         <div className="news-item" key={miniNews.appid+miniNews.date}>
           <h3 className="news-name">{miniNews.appName}</h3>
           <p className="news-date">Date : {miniNews.date}</p>
-          <p className="news-content">{miniNews.contents}</p>
+          <div className="news-content" dangerouslySetInnerHTML={ { __html: miniNews.contents}}></div>
         </div> 
       ))}
     </div>
