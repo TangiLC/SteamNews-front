@@ -1,0 +1,847 @@
+{
+  "meta": {},
+  "news": [
+    {
+      "title": "Coming soon, crafting vehicles",
+      "author": "FARMER",
+      "contents": "Coming soon, crafting vehicles<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43173887/689d630f5825b0a67db15682c44d5027bcdd5e9f.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43173887/72681241484387af73cf4522caf1cda64fa4c548.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43173887/9dbc4c46ffe1c6b421b58340afb9444ade97b569.png' class='newImg'>&#8193;<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687762940,
+      "appid": 2207220,
+      "appName": "Fish Bone",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/43173887/689d630f5825b0a67db15682c44d5027bcdd5e9f.png",
+        "https://clan.cloudflare.steamstatic.com/images/43173887/72681241484387af73cf4522caf1cda64fa4c548.png",
+        "https://clan.cloudflare.steamstatic.com/images/43173887/9dbc4c46ffe1c6b421b58340afb9444ade97b569.png"
+      ]
+    },
+    {
+      "title": "New Stars DevLog #11 - Galactic Federations, Unified Fleets, and more...",
+      "author": "adamjr",
+      "contents": "In Part 2 of the 'Interstellar' update, more playmodes are added with the addition of galactic unions - inspired by Stellaris federations, and stealth fleets. Unite the galaxy with Alliance Builders, or build mighty military fleets with Cooperative Militarists.<br><h4>Unions: GALACTIC FEDERATIONS</h4><br>Unions are like 'federations' from Stellaris but are more refined and straightforward. They are an alliance that multiple empires can join, instead of just two. Note that regular bidirectional alliances remain in the game at this time.<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43312936/1cc3ba3046b3d6468db0f03b99ab067c8d1de528.gif' class='newImg'>&#8193;<br><h5>1) Diplomatic Union</h5><br>This union focuses on diplomacy and alliance building, forging strong diplomatic ties and leveraging collective strength for mutual benefit. Only alliance builders can form this type of union.<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43312936/34e3de6c0bf5065229589c65341d642978e1e197.png' class='newImg'>&#8193;<br><h6>Ability: Peaceful star clans can join union.</h6><br>[expand type=details]<br><h6>Member Bonuses:</h6><br><span style='font-weight:bold'>Defensive Pact</span>: Join all ally offensive wars.<br><span style='font-weight:bold'>Joint Wars</span>: Join all ally defensive wars.<br><span style='font-weight:bold'>Modifiers</span>: +25% Starbase Strength.<br>[/expand]<br><h5>2) Martial Union</h5><br>This union emphasizes cooperative militarism, combining military prowess with cooperative efforts to defend and expand their territories. Only cooperative militarists can form this type of union.<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43312936/8ad3f0b2ad7490bd4dd4ff299c9718438a75d2ea.png' class='newImg'>&#8193;<br><h6>Ability: Build and maintain a union fleet.</h6><br>The leader can build and maintain union fleets, and they have no size restrictions.<br><h6>Union Naval Capacity</h6><br>- 20% of collective member naval capacity.<br>- This is a hard limit, and cannot be exceeded when building fleets.<br>[expand type=details]<br><h6>Member Bonuses:</h6><br><span style='font-weight:bold'>Defensive Pact</span>: Join all ally offensive wars.<br><span style='font-weight:bold'>Joint Wars</span>: Join all ally defensive wars.<br><span style='font-weight:bold'>Modifiers</span>: +25% Ship Build speed.<br>[/expand]<br><h5>3) Economic Union</h5><br>This union revolves around economic dominance, with powerful megacorporations controlling trade and resources to maximize profit and influence. Only megacorporations can form this type of union.<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43312936/22204aa5903675182628f58aa9595cd8532cf942.png' class='newImg'>&#8193;<br><h6>Ability: All members have partnerships with each other.</h6><br>- Partnerships are formed if player forms/joins union.<br>- Partnerships remain if player leaves union.<br>[expand type=details]<br><h6>Member Bonuses:</h6><br><span style='font-weight:bold'>Defensive Pact</span>: Join all ally offensive wars.<br><span style='font-weight:bold'>Joint Wars</span>: Join all ally defensive wars.<br><span style='font-weight:bold'>Modifiers</span>: +25% Collection Value in systems.<br>[/expand]<br><h6>Unions: Actions</h6><br><span style='font-weight:bold'>Form Union</span> - Found a union (must have cooperative ethics).<br><span style='font-weight:bold'>Leave Union</span> - Leave union (as member).<br><span style='font-weight:bold'>Join Union</span> - Join union with invite (as non-member).<br><span style='font-weight:bold'>Kick Player</span> - Kick player from union (as leader).<br><span style='font-weight:bold'>Invite Player</span> - Invite player to union (as leader).<br><span style='font-weight:bold'>Request to Join</span> - Request to join union (as non-member).<br><span style='font-weight:bold'>Accept Request</span> - Accept non-member join request (as leader).<br><span style='font-weight:bold'>Modify Union</span> - Customize union (as leader).<br><span style='font-weight:bold'>Considerations</span>:<br>- Only cooperative governments can found unions.<br>- Isolationists cannot join unions. <br>- Joining a union will disband all of the founder's alliances.<br>- A union must have at least 2 members to exist.<br>- Founder stays leader, unless they leave or are defeated.<br>[hr][/hr]<br><h4>Alliance Builder: UNITE THE GALAXY</h4><br>The Alliance Builder is a diplomatic powerhouse, specializing in forging alliances, maintaining diplomatic relations, and leveraging collective strength for mutual benefit.<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43312936/4fdcc5f24d43a1aadc408c505a73e9300e63d0ed.png' class='newImg'>&#8193;<br><span style='font-weight:bold'>Empire Chat</span>:<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43312936/ee1797eddbd54ba9e49052ee158fc4d69bf52a55.png' class='newImg'>&#8193;<br><h5>Ability: UNITE THE GALAXY</h5><br><h6>Can ally and invite star clans to your union.</h6><br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43312936/71224c199c43604d056020b9f2a4476192572839.gif' class='newImg'>&#8193;<br>[expand type=details]<br><span style='font-weight:bold'>Strength</span>: Enhances galactic security, and allies enter all wars.<br><span style='font-weight:bold'>Weakness</span>: Can be countered by other galactic unions, and you can be dragged into wars.<br>[/expand]<br><h5>Ability: FORM DIPLOMATIC UNION</h5><br><h6>Can form diplomatic unions.</h6><br>- You can ally star clans, or invite them to your union.<br>- Star clans are peaceful ancient mini-empires that are open to tribute, but have limited diplomacy.<br><h5>Unique Building: Unity Council Chambers</h5><br>This grand structure serves as the central hub for fostering collaboration, forging alliances, and promoting unity among diverse factions within the colony.<br>[expand type=details]<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43312936/f40465453f1a7e06fc35fe891ebe17371b5299a0.png' class='newImg'>&#8193;<br><span style='font-weight:bold'>Jobs</span>: 1x Diplomat (Produces: +1 Power)<br><span style='font-weight:bold'>Bonus</span>: +50 Opinion for all allies.<br><span style='font-weight:bold'>Restrictions</span>: Non-stackable; Non-upgradable; Can only be built in capital.<br>Within the spacious halls of the Unity Council Chambers, representatives from various factions convene to discuss matters of common interest, negotiate treaties, and resolve conflicts through diplomatic means. The building houses meeting rooms equipped with advanced communication technologies, translation systems, and data networks to facilitate effective and efficient dialogue between different species and civilizations.<br>[/expand]<br>[hr][/hr]<br><h4>Cooperative Militarist: A UNITED FRONT</h4><br>Forging a unique path between cooperation and aggression, the Cooperative Militarist emerges as a formidable force on the galactic stage.<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43312936/563868cb4488b463ac4cc08931faf4ef22b36655.png' class='newImg'>&#8193;<br><span style='font-weight:bold'>Empire Chat</span>:<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43312936/09190310c9dcaaa676b966256483c3953d8a54c6.png' class='newImg'>&#8193;<br><h5>Ability: A UNITED FRONT</h5><br><h6>Can invite other empires to join your wars.</h6><br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43312936/e5ec94e48a09e8eec5394d8d3dc5663f6ae95711.gif' class='newImg'>&#8193;<br>[expand type=details]<br><span style='font-weight:bold'>Strength</span>: Can cause chaos for victim empire.<br><span style='font-weight:bold'>Weakness</span>: Must have good relations with other players.<br>[/expand]<br><h5>Ability: FORM MARTIAL UNION</h5><br><h6>Can form martial unions.</h6><br><h5>Unique Building: FORGE MATRIX</h5><br>Built upon a foundation of shared purpose and coordinated efforts, the Forge Matrix serves as the epitome of the Cooperative Militarist's commitment to collective strength and rapid mobilization.<br>[expand type=details]<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43312936/a6c987ef89e81141c62bd3c33741315b1c92be6c.png' class='newImg'>&#8193;<br><span style='font-weight:bold'>Jobs</span>: 1x Forge Technician (Produces: +6 Metals, -3 Energy)<br><span style='font-weight:bold'>Bonus</span>: +50% Ship Build Speed in system.<br><span style='font-weight:bold'>Restrictions</span>: Non-stackable; Non-upgradable.<br>Through meticulous planning and relentless innovation, the Cooperative Militarist has fine-tuned the operations of the Forge Matrix to perfection. Its advanced algorithms optimize resource allocation, minimize production bottlenecks, and streamline the construction process, allowing for an unprecedented increase in fleet build speed within the system.<br>[/expand]<br>[hr][/hr]<br><h5>Quality of Life Improvements</h5><br><h6>Special Abilities are Shown on Loading Screen</h6><br>- Shown when initially starting game, instead of tips.<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43312936/8845de792993942a221d55232bba409f3997c647.png' class='newImg'>&#8193;<br>[hr][/hr]<br><h5>Other Changes</h5><br><span style='font-weight:bold'>1) Repeatable techs are much less likely to show up.</span><br>- Non-repeatable techs will be prioritized before repeatables.<br><span style='font-weight:bold'>2) Leaving an alliance or union forms a 5 year truce.</span><br><span style='font-weight:bold'>3) All players can form a business partnership, which now shares 5% of collected resources between empires.</span><br>- Previously, this was limited to megacorps, and didn't include trade a bonus.<br>- This is now mutually beneficial, and can be seen as more of a fixed trade deal.<br>- Collected resources refers to harvested star/planet resources.<br><span style='font-weight:bold'>4) Buildings now have custom names, lore, and descriptions.</span><br><h5>More to come...</h5><br>I believe it's more fun for each play-mode to have powerful abilities and mechanics, that can be overpowered in some instances, instead of simply having boring modifiers like '+100% Collection Value'.<br>Higher quality features will also mean a better overall experience, at the cost of more months before public playtesting. I originally intended for public playtesting in April, but the game won't be ready for that for a while due to an increased scope of game, and thus more development requirements. I expect that this will be the most important gameplay update for the game, and the new features being added are necessary for New Stars to be a fun and replayable experience.<br>There is still more to come...<br>[hr][/hr]<br><h5>Stay tuned for more updates...</h5><br>Feel free to comment your suggestions below.<br><span style='font-weight:bold'>🎮 Playtest New Stars</span>: &#8192;&#8192;<a href='https://discord.io/adamjr'>&#8193;discord.io/adamjr&#8192;</a>&#8193;&#8193;.<br><span style='font-weight:bold'>⭐ Wishlist New Stars to support development.</span><br><span style='font-style:italic'>This page is intended to be a development preview, which may not reflect the final state of the game.</span><br>Credits:<br>- &#8192;&#8192;<a href='https://game-icons.net/1x1/lorc/star-sattelites.html'>&#8193;Star satellites icon by Lorc under CC BY 3.0&#8192;</a>&#8193;&#8193;<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687743261,
+      "appid": 2231270,
+      "appName": "New Stars",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/43312936/1cc3ba3046b3d6468db0f03b99ab067c8d1de528.gif",
+        "https://clan.cloudflare.steamstatic.com/images/43312936/34e3de6c0bf5065229589c65341d642978e1e197.png",
+        "https://clan.cloudflare.steamstatic.com/images/43312936/8ad3f0b2ad7490bd4dd4ff299c9718438a75d2ea.png",
+        "https://clan.cloudflare.steamstatic.com/images/43312936/22204aa5903675182628f58aa9595cd8532cf942.png",
+        "https://clan.cloudflare.steamstatic.com/images/43312936/4fdcc5f24d43a1aadc408c505a73e9300e63d0ed.png",
+        "https://clan.cloudflare.steamstatic.com/images/43312936/ee1797eddbd54ba9e49052ee158fc4d69bf52a55.png",
+        "https://clan.cloudflare.steamstatic.com/images/43312936/71224c199c43604d056020b9f2a4476192572839.gif",
+        "https://clan.cloudflare.steamstatic.com/images/43312936/f40465453f1a7e06fc35fe891ebe17371b5299a0.png",
+        "https://clan.cloudflare.steamstatic.com/images/43312936/563868cb4488b463ac4cc08931faf4ef22b36655.png",
+        "https://clan.cloudflare.steamstatic.com/images/43312936/09190310c9dcaaa676b966256483c3953d8a54c6.png",
+        "https://clan.cloudflare.steamstatic.com/images/43312936/e5ec94e48a09e8eec5394d8d3dc5663f6ae95711.gif",
+        "https://clan.cloudflare.steamstatic.com/images/43312936/a6c987ef89e81141c62bd3c33741315b1c92be6c.png",
+        "https://clan.cloudflare.steamstatic.com/images/43312936/8845de792993942a221d55232bba409f3997c647.png"
+      ]
+    },
+    {
+      "title": "Dev Log More Vampires",
+      "author": "danacraig78",
+      "contents": "&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43196755/1e49c14515d22d6fd3960a184624fea676bdec5b.jpg' class='newImg'>&#8193;<br>I have finished redoing the Vampire Dungeon scene for Day 1. The set I had used in the previous one was...ok. However, I found a set that had a much better feel, and didn't just repeat the \"Grand Inquisition\" dungeon I had used for Andrei Prologue and The Council chapter. Also finished a scene that explains the mech that was in the previous version (and still in this. When I have a chance to use a large creature like the Deathstalker, I will use it to tell a story ;)) <br>Now, I am going to work the Lucia portion of the backstory. Up to now, you have seen her briefly in Kei's prologue and Andrei's prologue. I did this intentionally so I could have an opportunity to flesh her out a little more..which I am going to do now. ;)<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687723530,
+      "appid": 2174780,
+      "appName": "Fire of Life: New Day",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/43196755/1e49c14515d22d6fd3960a184624fea676bdec5b.jpg"
+      ]
+    },
+    {
+      "title": "Massive update alert: Counting Down to Steam Release",
+      "author": "BRANE",
+      "contents": "Today is a great point in development of MoC: <span style='font-weight:bold'>Demo is feature complete</span>.<br>Today I've uploaded a new build of Master of Chess demo. If you're interested in testing it, join discord here: &#8192;<a href='https://discord.gg/HYV8Zz8V2Q'>&#8193;LINK&#8192;</a>&#8193;&nbsp;Is it perfect? No. Is it bug-free? No way. But it's a valid reference point to what the demo will look like when it hits Steam. <br>&#8192;<img src='https://www.imbrane.com/assets/images/create-player-900d8cd4a131044639ed94a6001565f3.gif' class='newImg'>&#8193;<br><h4>The Latest and Greatest: What's New in the Demo?</h4><br><ul><li> <span style='font-weight:bold'>Create your player</span> feature is integrated completely. Feel free to start up the demo and create your own player.</li><li> <span style='font-weight:bold'>Match preview screen</span> got a complete overwrite. The placeholder UI is now replaced with a full overview of both players strengths and winning percentages.</li><li> <span style='font-weight:bold'>'Game crashes randomly'</span> bug fixed! (or so I hope, I can't reproduce it any more!) It seems to be related to the way async code was handled in Godot and in the newest version 4.1 I had to switch the way async code is handled and even clear out some of the async logic.</li><li> As mentioned, <span style='font-weight:bold'>game is now migrated to beta version of Godot 4.1</span>. We're running it bleeding edge as far as Godot is concerned. I'm really happy that Godot will hit stable 4.1 in the approximately same time as my game starts seeking stability too.</li><li> <span style='font-weight:bold'>A linux build!</span> I decided to have a linux build because a) people asked for it, b) I hoped it would give me more insights into some game-crashing bugs. </li><li> Numerous little bug fixes and tidy ups. I plan to write this up in a more professional manner in the future so I can list those out easily. </li></ul><br><h4>A Few Dragons Still to Slay: Current Issues</h4><br><ul><li>  <span style='font-weight:bold'>Chess AI Improvements:</span> Chess AI received a lot of comments, with some finding it too challenging and others finding it not challenging enough. This feedback isn't contradictory; it points to the inconsistencies in the AI, which I'm aware of. Over the next week (and even month), refining the AI will be a major focus of my work.</li><li> <span style='font-weight:bold'>Enhancing User Interface:</span> The user experience on the match review screen isn't the best. Navigating through a completed match should be a breeze, and I agree that there's room for improvement. I'm committed to making this experience better. Some UX issues, bugs still exist on the main match screen too. These need to be addressed.</li><li> <span style='font-weight:bold'>AI Responsiveness Issues:</span> Some of you have encountered a problem where the AI stops making moves. This was an issue I tackled in early builds, but it seems to have reappeared. It's time I dive into it and ensure it's permanently fixed.</li></ul><br><br><h5>What's next?</h5><br>As mentioned, the Demo is feature complete and all that's left is to polish it up. If I could get the AI to be decent enough in the next week and add some Quality of Life improvements then all would be ready for a Steam release of the Demo in early July.<br>I'm so excited!<br><br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687712401,
+      "appid": 2248900,
+      "appName": "Master of Chess",
+      "images": [
+        "https://www.imbrane.com/assets/images/create-player-900d8cd4a131044639ed94a6001565f3.gif"
+      ]
+    },
+    {
+      "title": "Четыре девушки и страшная корпорация. Кого выбрать китайскому солдату? Обзор Lost in Darklight",
+      "author": "Александр Логинов",
+      "contents": "<img src=\"&#8192;<a href='https://gamemag.ru/images/cache/Reviews/Reviews2384/aa60479018-1_1390x600.jpg\" alt=\"\"><p>Мы уже давно не обращались к странному жанру FMV-игр <span>—</span> выходят они не очень часто, да и не всегда хочется тратить на них время. Однако на фоне азиатского бума и импортозамещения стало интересно познакомиться с новым китайским приключением <strong>Lost in Darklight</strong>.</p>'>&#8193;LINK&#8192;</a>&#8193;&nbsp;",
+      "feedlabel": "Gamemag.ru",
+      "date": 1687712280,
+      "appid": 2251020,
+      "appName": "逆光迷途（Lost in darklight）",
+      "images": []
+    },
+    {
+      "title": "At the Dream End 2 - Beyond Gods DEMO is now available on Steam!",
+      "author": "MMM games",
+      "contents": "&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43349548/0a3ec1625a6aa360b96a2df8626d95552f4d3cc9.png' class='newImg'>&#8193;<br>The demo for \"At the Dream End 2\" has been released on Steam! The demo offers a glimpse into the world of \"At the Dream End 2\".<br>And now when the demo is released we are looking for your feedback.<br>Your opinion is very important to us. We appreciate your feedback because it helps us hone and improve the game before its full release. We invite you to try out the demo and let us know what you think. We are curious to know what you think of the gameplay, graphics, story, and any other aspect. Please take a moment to let us know what you think in the community forums on Steam, on our social media pages, or any other platform of your choice. Your suggestions will be used to improve \"At the Dream End 2\" and give all players the best experience.<br>Thank you for your support and enthusiasm. We look forward to hearing from you and working together to create an unforgettable gaming experience. Stay tuned for more updates and news about the game as we continue on this exciting journey together.<br>\"At the Dream End 2 - Beyond Gods\" page is available at:<br>Steam &#8192;&#8192;<a href='https://store.steampowered.com/app/2420860/At_the_Dream_End_2__Beyond_Gods/'>&#8193;&#8192;<a href='https://store.steampowered.com/app/2420860/At_the_Dream_End_2__Beyond_Gods/&#8192;</a>&#8193;&#8193;'>&#8193;LINK&#8192;</a>&#8193;&nbsp;ItchIo &#8192;&#8192;<a href='https://mmm.itch.io/beyond-gods-at-the-dream-end-2'>&#8193;&#8192;<a href='https://mmm.itch.io/beyond-gods-at-the-dream-end-2&#8192;</a>&#8193;&#8193;'>&#8193;LINK&#8192;</a>&#8193;&nbsp;GameJolt &#8192;&#8192;<a href='https://gamejolt.com/games/At_the_Dream_End2/810998'>&#8193;&#8192;<a href='https://gamejolt.com/games/At_the_Dream_End2/810998'>&#8193;LINK&#8192;</a>&#8193;&nbsp;&#8192;</a>&#8193;&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43349548/d40864eb43b370653d60c931cfbe843515835fe5.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43349548/babbdc4b7de54c726ae8e7b808e041d41f25662f.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43349548/ed3bc55dd212781f8b85f80c117135d50ba3585f.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43349548/bd03ce64d4f0a1088700c3655021f5d1f59d0409.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43349548/4907ff621745dc2c1d516159d0ca615210b762ac.png' class='newImg'>&#8193;<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687690778,
+      "appid": 2251670,
+      "appName": "At the dream end",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/43349548/0a3ec1625a6aa360b96a2df8626d95552f4d3cc9.png",
+        "https://clan.cloudflare.steamstatic.com/images/43349548/d40864eb43b370653d60c931cfbe843515835fe5.png",
+        "https://clan.cloudflare.steamstatic.com/images/43349548/babbdc4b7de54c726ae8e7b808e041d41f25662f.png",
+        "https://clan.cloudflare.steamstatic.com/images/43349548/ed3bc55dd212781f8b85f80c117135d50ba3585f.png",
+        "https://clan.cloudflare.steamstatic.com/images/43349548/bd03ce64d4f0a1088700c3655021f5d1f59d0409.png",
+        "https://clan.cloudflare.steamstatic.com/images/43349548/4907ff621745dc2c1d516159d0ca615210b762ac.png"
+      ]
+    },
+    {
+      "title": "Three Kingdoms Zhao Yun DemoV0.3.6 Update",
+      "author": "Jean",
+      "contents": "2023/6/25 update :<br>1. The mouse operation mode is initially provided, which can be used as an early experience, but further debugging is required, press the C key to switch<br>2. Enhanced compatibility with the English version<br>3. Fixed the bug that the addition of some buff attributes was reduced<br>4. Fixed the bug that you can't talk to npc when dismounting<br>5. When encountering an air wall and turning back automatically, the situation of walking into enemy soldiers is reduced<br>6. Minor revisions to the difficulty of combat values to avoid being too simple<br>7. Reduced the situation where Bosses such as Wen Chou will follow the direction when casting skills<br>8. Fixed the bug of store page<br>Three Kingdoms Zhao Yun has now entered the optimization stage, and plans to release in the third quarter.<br>Cheers,<br>ETime Studio<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687677329,
+      "appid": 2201710,
+      "appName": "Three Kingdoms Zhao Yun",
+      "images": []
+    },
+    {
+      "title": "[Archive] Experimentation and Retries",
+      "author": "REMORE",
+      "contents": "&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43792072/b04e3767a7ae7aad9119d3a6dc8208af299cb99b.jpg' class='newImg'>&#8193;<br>※ <span style='font-weight:bold'>Spoiler Alert!</span> This is a continuation of a previous &#8192;&#8192;<a href='https://store.steampowered.com/news/app/2225480/view/3666540501748291228'>&#8193;Dev Note&#8192;</a>&#8193;&#8193;.<br>We previously talked about our paper prototype being based on Zombicide, the first non-grid turn based version of the game, and the grid semi-turn-based system where all allies acted autonomously.<br>The goal of the third version was to increase tactical depth by directly controlling all allies while maintaining the grid-based system. However, we were concerned that if we added infiltration mechanics such as \"line of sight/sound\" on top of the grid turn-based system, the game would become overly complex.<br>Also, in order to emphasize the thematic feeling of exploring various abandoned buildings and searching for supplies, the battlefield size was quite large at this point. Feedback was given that moving each character one by one could potentially make the flow of the game monotonous given this map size.<br>Drawing inspiration from games such as Mutant Year Zero and Divinity: Original Sin, which have exploration phases in real-time and combat phases in turn-based mode, we experimented with a version that provides an experience similar to real-time infiltration games during regular movement, and only allows direct commands to be given to all characters during combat.<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43792072/6a84857ba304c6548fff2cf5ecbe3891b26407d9.gif' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43792072/0abc2bec4173e32b7d7bbaa863b8e63f0447014c.gif' class='newImg'>&#8193;<br>This version got close to the desired experience generally. During the exploration phase, we were able to maintain tension by avoiding the attention of randomly moving creatures and searching for supplies. In combat, we were able to focus on tactical gameplay based on striking enemies from out of sight.<br>However, there was doubt as to whether we could achieve the desired level of quality going in this direction.<br>Making both \"real-time exploration\" and \"turn-based combat” really enjoyable differed in terms of artwork, game rules, balancing, and other aspects. We felt that if we tried to capture both aspects, there was a high possibility of ending up with mediocre results on both sides.<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43792072/bae3dedcb542cf5f40bdac46784075287ab2c5e8.gif' class='newImg'>&#8193;<br>Based on the results of the experiments, we decided to make \"integrating all intended gameplay, including movement/exploration, into a turn-based system\" the design foundation, even if there were some drawbacks. In a way, if we had just adopted the grid method by itself in the first version, we would have arrived at our current direction earlier, but we took the scenic route instead!<br>After deciding on this foundation, we fixed the overarching genre characteristics while shifting the focus of prototyping to answering the question, \"How can we incorporate elements such as line of sight/sound into a Tactics RPG?\"  We talked about this in the Dev Note about line of sight and sound.<br>In addition to this, before reaching our current state, there have been other various iterations in regard to changes in character professions, meta-game and storytelling methods, and more. If we have the chance, we may introduce these at a later date.<br> <br>Next time, we will briefly summarize how we plan to incorporate many of the suggestions you provided at Steam Next Fest 2023 going forward. See you again next week!<br>Thank you<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687658455,
+      "appid": 2225480,
+      "appName": "REMORE: INFESTED KINGDOM",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/43792072/b04e3767a7ae7aad9119d3a6dc8208af299cb99b.jpg",
+        "https://clan.cloudflare.steamstatic.com/images/43792072/6a84857ba304c6548fff2cf5ecbe3891b26407d9.gif",
+        "https://clan.cloudflare.steamstatic.com/images/43792072/0abc2bec4173e32b7d7bbaa863b8e63f0447014c.gif",
+        "https://clan.cloudflare.steamstatic.com/images/43792072/bae3dedcb542cf5f40bdac46784075287ab2c5e8.gif"
+      ]
+    },
+    {
+      "title": "Mimi the Cat - New Friends now avaliable!",
+      "author": "Wise Box Studios",
+      "contents": "&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/40007110/9b8747d9703c391e1531f2a7d15d9c0f2d7e0d8a.png' class='newImg'>&#8193;<br>Mimi, Branco, Nevezinho, Melzinha, Cinzendo, and Negan are real kittens that are or have been part of our lives. It's a joy to immortalize the presence of our beloved felines in this game.<br><br>The game is now available!<br><br>Mimi the Cat - New Friends is a sokoban-style game where you can push boxes, stack boxes, and even jump between platforms, so that the lovely little cat Mimi can have her well-deserved rest in her bed.<br><br>&#8192;<a href='https://store.steampowered.com/app/2454020/Mimi_the_Cat__New_Friends/'>&#8193;LINK&#8192;</a>&#8193;&nbsp;&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/40007110/4c612bdd1b2f3a3d175cadc80d516f59c3890f5d.png' class='newImg'>&#8193;<br><br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/40007110/b8a809c6f3c79079478872a2ef59d42ad43f3a03.gif' class='newImg'>&#8193;<br><br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/40007110/ac49c24659880cdbfc0868d7c67e9f6e2f288f59.gif' class='newImg'>&#8193;<br><br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/40007110/eb673cd92b75a2ed2fe6e631ba0a925090b9fec6.gif' class='newImg'>&#8193;<br><br><br><br>Check out our other Sokoban-style puzzle games:<br>&#8192;<a href='https://store.steampowered.com/app/2453770/Pop_and_Chicks/'>&#8193;LINK&#8192;</a>&#8193;&nbsp;<br>&#8192;<a href='https://store.steampowered.com/app/2222770/Cats_and_Sokoban__Mimis_Scratcher/'>&#8193;LINK&#8192;</a>&#8193;&nbsp;<br>Follow our developer page on Steam to stay up-to-date:<br>&#8192;<a href='https://store.steampowered.com/publisher/WiseBoxStudios'>&#8193;LINK&#8192;</a>&#8193;&nbsp;",
+      "feedlabel": "Community Announcements",
+      "date": 1687631149,
+      "appid": 2222770,
+      "appName": "Cats and Sokoban - Mimi's Scratcher",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/40007110/9b8747d9703c391e1531f2a7d15d9c0f2d7e0d8a.png",
+        "https://clan.cloudflare.steamstatic.com/images/40007110/4c612bdd1b2f3a3d175cadc80d516f59c3890f5d.png",
+        "https://clan.cloudflare.steamstatic.com/images/40007110/b8a809c6f3c79079478872a2ef59d42ad43f3a03.gif",
+        "https://clan.cloudflare.steamstatic.com/images/40007110/ac49c24659880cdbfc0868d7c67e9f6e2f288f59.gif",
+        "https://clan.cloudflare.steamstatic.com/images/40007110/eb673cd92b75a2ed2fe6e631ba0a925090b9fec6.gif"
+      ]
+    },
+    {
+      "title": "Development Report No. 1",
+      "author": "LMODE",
+      "contents": "<span style='font-weight:bold'>With Regards to Art & Level Direction</span><br>The game's development progress is consistent and we are currently overhauling the player's diegetic HUD to a near final state. Once overhauled, we will be ready for all new preview content for an updated store page and marketing push.<br>A lot of work has been made since the pre-alpha announcement in February. The levels are what take a lot of time, as they are relatively large and must accommodate for multiple paths which lead to different exits. Because it's an underwater game, I am trying to dispel the aversion many people might have with the concept of navigating inside of fog-obscured environments. Silhouettes play a major factor in what you're identifying, so all the levels need an art detail pass which means mostly bespoke layers upon layers of interesting geologies and recognizable landmarks within each of these large levels. <br>The ecosystem between levels is another thing that needs special attention. I'm not sure how many beasties the final game will have exactly, but the number of unique beasties spawned to make up each level's ecosystem will not be padded out by duplicate geometry with different textures applied. This means that all beasties in the game will have their own recognizable silhouettes which can be identified. So far, there are over 100 unique creatures.<br>I am also making sure the texture work for everything exists and is well made so that when you are up close to something and turn on your flashlight, you see a level of detail which many may not expect - like strata in rock or the flesh of a jelly. I say this because I do not want the fog to necessarily \"hide\" anything other than as it pertains to actual navigational gameplay and the use of HUD instruments as a result. And also secrets.<br><span style='font-weight:bold'>But What About the Gameplay</span><br>Closed alpha playtesting has been ongoing and we have made fundamental changes to the game's design and play cycle since our original inception based on this feedback. More details will be revealed as to the specifics of what the gameplay is about later - when we update the store page to give a more concise idea of what the game will actually be like to potential customers.<br><br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687627051,
+      "appid": 2243690,
+      "appName": "B.C. Piezophile",
+      "images": []
+    },
+    {
+      "title": "Bug Fixes",
+      "author": "company",
+      "contents": "Thanks for the bug notes on the forums!  I've been working to resolve some of the issues folks were seeing on some machines.  I just pushed some updates that should take care of:<br>* Black Screen bug (UI is visible but the game isn't)<br>* Skipping bug (Nemo appears to glitch as he's walking)<br>There are also some minor level improvements, performance improvements, and minor changes to things like enemy placement and improving overall playability of the demo level.<br>Thanks for all the feedback so far!  We really appreciate it!<br>- Ben<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687616886,
+      "appid": 2229030,
+      "appName": "Little Nemo and the Nightmare Fiends",
+      "images": []
+    },
+    {
+      "title": "A new roguelike tower defense game!",
+      "author": "🅵🆅🆂",
+      "contents": "&#8192;<iframe src='https://www.youtube.com/embed/'y0t1SSb3MKs;full' class='ytFrame'></iframe>&#8193;<br>Wishlist and follow the game now!<br>&#8192;<a href='https://store.steampowered.com/app/2453610/Towerful_Defense_A_Rogue_TD'>&#8193;LINK&#8192;</a>&#8193;&nbsp;",
+      "feedlabel": "Community Announcements",
+      "date": 1687610523,
+      "appid": 2182490,
+      "appName": "Overwritten",
+      "images": [
+        "ythttps://www.youtube.com/embed/y0t1SSb3MKs;full"
+      ]
+    },
+    {
+      "title": "Coppersan & More Let's Play!",
+      "author": "rik",
+      "contents": "Thanks a lot to @coppersan, @userfriendsly & @LouiseLives for joining us on this Let's Play!<br>------------------------<br>Project Planet is a strategical party game for up to six players.<br>Destroy Humanity with horrible disasters as Planet Earth! Or team up with up to five friends and try to survive as humanity!<br>Think Plague Inc. meets Pandemic (the board game), with JackboxTV-style drop-in-and-play!<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687591666,
+      "appid": 2224610,
+      "appName": "Project Planet - Earth vs Humanity",
+      "images": []
+    },
+    {
+      "title": "Immerse Yourself in Shieyuan Puzzle",
+      "author": "Andrea Fantastico Studio",
+      "contents": "Get ready for the highly anticipated Next Fest on Steam! <br>Join us for an extraordinary event where you can watch the talented developers of our game showcase their skills and play the game live. <br>Immerse yourself in the thrilling gameplay and gain valuable insights into the creation process. <br>Don't miss this exclusive opportunity to witness the magic unfold as the developers take center stage!<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687587846,
+      "appid": 2239360,
+      "appName": "Siheyuan",
+      "images": []
+    },
+    {
+      "title": "Ayako's Mission is now live on Steam!",
+      "author": "Anamik",
+      "contents": "&#8192;<img src='https://clan.akamai.steamstatic.com/images/33017057/07d4eaef2955761bc3b474ddd999b9948561d98d.png' class='newImg'>&#8193;<br>Hello everyone,<br><br>The wait is over! I am proudly presenting my new title called Ayako's Mission which is recently launched on Steam! If you are into 2D top down arcade shoot'em ups you might enjoy the game.<br><br>Check it out here:<br>&#8192;<a href='https://store.steampowered.com/app/2455680/Ayakos_Mission/'>&#8193;LINK&#8192;</a>&#8193;&nbsp;<br>Ayako's Mission is a 2D Top-Down Shoot'em Up game based on the story of the war breaking out between the two territories called, AY Corp and ATO Corp. where you must defend your territory against the invaders. <br><br>I hope you will enjoy the game and feel free to provide feedback to improve it. Thank you!<br><br>Best Regards,<br>Anamik<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687571072,
+      "appid": 2206930,
+      "appName": "Canterz Paranormies 2",
+      "images": [
+        "https://clan.akamai.steamstatic.com/images/33017057/07d4eaef2955761bc3b474ddd999b9948561d98d.png"
+      ]
+    },
+    {
+      "title": "Happy Father's Day",
+      "author": "AmirBlack3",
+      "contents": "&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43208103/e9a26313ad6f927c8342021ab6624f70d2b8629e.jpg' class='newImg'>&#8193;<br>Fatherhood is a journey like no other, filled with precious moments and profound responsibilities. It's about being a guiding light, a source of support, and a role model for your children.<br>To all the fathers who have embraced the joys and challenges of parenthood, we salute you. Your unconditional love and sacrifices shape the lives of your children and leave an everlasting impact.<br>In honor of this special day, we invite you to experience the heartfelt journey of Fatherhood, an emotional indie game that explores the bond between a father and his child in the face of adversity.<br>Tag a dad who inspires you and let's celebrate the amazing fathers who make a difference in our lives. 💪❤️<br>#HappyFathersDay #FatherhoodGame #CelebratingDads<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687555383,
+      "appid": 2180850,
+      "appName": "Fatherhood",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/43208103/e9a26313ad6f927c8342021ab6624f70d2b8629e.jpg"
+      ]
+    },
+    {
+      "title": "Next Fest Developer Livestream",
+      "author": ".Parona",
+      "contents": "Hello together!<br>We'll do another livestream tomorrow, this time at 6pm. We will again present gameplay from the demo and answer your questions and comments in the chat.<br>We are looking forward to see you!<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687553510,
+      "appid": 2204350,
+      "appName": "Midnight Heist",
+      "images": []
+    },
+    {
+      "title": "Quick Announcement/Update about the eBook DLC...",
+      "author": "Sciaenops Ocellatus",
+      "contents": "So the first big piece of news: yes, I'm working on it.  For the first draft, I'm just porting all the lines over into a Word document and then reformatting them into something more bookish.  From there, its just going to be revising and making it read like PROPER LITERATURE.  Okay, maybe not \"proper\" on the lines of Sherlock Holmes or something.  But more proper than it currently is.<br>But as I'm going through, I'm noticing a lot of lines that aren't as clear as when I first wrote the visual novel.  Which is a normal process, I've learned.  What reads great before doesn't read so well when you check on it months or years later.  But the great thing about visual novels is that you can update them much easier than you can a published book.  So while I am working on the novelization, I'm also revising the game.<br>So eventually, this game is going to get not only an eBook for DLC but it will get what I assume will be a fairly big update.  Basically revising scenes from good to better.  I'll come up with a kicky name for this update later.<br>No idea when either will release just yet, so stay tuned.  :-)<br>(Also if you haven't checked out the sequel's demo yet, its still up and its still in Next Fest.<br>&#8192;<a href='https://store.steampowered.com/app/2323650/Clash_Blue_Mirage/'>&#8193;LINK&#8192;</a>&#8193;&nbsp;So there you go, there's that.)<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687548190,
+      "appid": 2222480,
+      "appName": "Clash: Robot Detective - Complete Edition",
+      "images": []
+    },
+    {
+      "title": "Steam Next Fest livestream",
+      "author": "Octarina IH",
+      "contents": "&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43988932/79f4a2cf717f73960e797358aa60b5456c9dc165.png' class='newImg'>&#8193;<br>Conquer the Iron Marines Invasion free Demo, that has just been deployed at&#8192;&#8192;<a href='https://bit.ly/IMIdemo'>&#8193; Steam Next Fest! &#8192;</a>&#8193;&#8193;<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687547611,
+      "appid": 2187920,
+      "appName": "Iron Marines Invasion",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/43988932/79f4a2cf717f73960e797358aa60b5456c9dc165.png"
+      ]
+    },
+    {
+      "title": "Some bugs and minor fixes",
+      "author": "omainteractive",
+      "contents": "Fixed a bug where loading the game once with a vehicle spawned and then loading a save file with the vehicle spawned again would crash.<br>Some player buildings had walls that could be walked up like stairs using thin jaws.<br>now no longer allow players to walk up them like stairs.<br>(However, you can still stand on them if you jump up from another floor)<br>Fixed decals such as footprints not being created on crops<br>Changed the height of obstacles in front of the character that can be climbed with the chin to no longer respond to obstacles that are too low.<br>Fixed the animation of climbing over obstacles so that they don't bounce as much.<br>The duration of this behavior is now shorter than before<br>Other frame stability improvements related to light sources throughout the world<br>Fixed resetting on game restart after adjusting mouse sensitivity<br>Increased damage of melee weapons/tools, etc. and increased attack range to approximately 2-4 meters depending on weapon type.<br>Torch item durability increased<br><br>Reduced the amount of bullet spread when firearms are heavily low durability by about half<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687522795,
+      "appid": 2205150,
+      "appName": "PlanetBlight",
+      "images": []
+    },
+    {
+      "title": "Demo Hotfix 2",
+      "author": "Ludlus",
+      "contents": "Hello,<br>we've uploaded an update which fixes a rare crash during the battles. We've also balanced some attacking waves. Getting to the final wave is now easier.<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687521494,
+      "appid": 2240480,
+      "appName": "Altwaldheim 2: Town in Trouble",
+      "images": []
+    },
+    {
+      "title": "Demo 2.4",
+      "author": "Bulletter",
+      "contents": "Demo 2.4 is available. Just minor tweaks and polish. We are working on some quality of life things for the future like a quick look at what upgrades you have and a dummy to shoot in the upgrade hall. <br>Tweaks<br>adjusted the ceilings for some levels<br>adjusted the collision for the explosive barrels so bullets hit it properly<br>made the arrows for the arrowfall card bigger<br>added more arrows for the arrowfall card<br>adjusted the stats of the arrows for the arrowfall card and its upgrades<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687514730,
+      "appid": 2234740,
+      "appName": "ExtermiHate",
+      "images": []
+    },
+    {
+      "title": "Nature Researcher Reviews Flutter Away 🏕️ (PRE-RECORDED)",
+      "author": "Runaway Play",
+      "contents": "Hello! There’s only 3 days left to check out our extended demo for yourself! This demo is likely to be our last before launch, so be sure to check it out while you can.  <br>Meet our Community Manager Aditia (she/her) and Nature Researcher Jonas (he/him) as they go on a “nature walk” in our upcoming livestream. <br>This demo is longer than our first, and includes a full experience of ‘Day 1’  in Flutter Away! It is available to play during Steam Next Fest: June 2023 Edition (June 19th to 26th PT) only. 🌙<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43495609/16ca46f4439fd7e7e7251efa77476a39cc6a3338.jpg' class='newImg'>&#8193;<br>If you haven’t already, don’t forget to add the game to your wishlist, it really helps our visibility on Steam! <br>&#8192;<a href='https://store.steampowered.com/app/2224030/Flutter_Away/'>&#8193;LINK&#8192;</a>&#8193;&nbsp;We hope you enjoy it! <br>🦋Aditia and the Flutter Away Team <br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687485960,
+      "appid": 2224030,
+      "appName": "Flutter Away",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/43495609/16ca46f4439fd7e7e7251efa77476a39cc6a3338.jpg"
+      ]
+    },
+    {
+      "title": "Cozy Cabin: Coffee Boutique Dev Stream!",
+      "author": "polyblossompublishing",
+      "contents": "                                                                       Poly Blossom Presents <br>                                                                  Cozy Cabin: Coffee Boutique<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/44211661/89f29914dabec5c73362c78281218a54dd2258da.png' class='newImg'>&#8193;<br>                                                                          <br>           Meet the developers of Cozy Cabin: Coffee Boutique, learn how to play the game, and find out about upcoming features!<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/44211661/95e42a0a407546434e61577e120dd1db59411eb9.png' class='newImg'>&#8193;<br>                                                                           <br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/44211661/21ea4349879b2f579bded6f8bab5f28c03757167.gif' class='newImg'>&#8193;<br>                                                                      (pre-rendered footage)<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687485016,
+      "appid": 2249530,
+      "appName": "Cozy Cabin: Coffee Boutique",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/44211661/89f29914dabec5c73362c78281218a54dd2258da.png",
+        "https://clan.cloudflare.steamstatic.com/images/44211661/95e42a0a407546434e61577e120dd1db59411eb9.png",
+        "https://clan.cloudflare.steamstatic.com/images/44211661/21ea4349879b2f579bded6f8bab5f28c03757167.gif"
+      ]
+    },
+    {
+      "title": "Upcoming Launch",
+      "author": "Joshyposhytv",
+      "contents": "Greetings, everyone! Josh here,<br>I wanted to take a moment to share some exciting updates regarding The Secrets of Hope's development and its demo showcased during Steam Next Fest. The overwhelming support we received for the demo has been truly incredible, and I can't express my gratitude enough.<br>The demo offers just a glimpse of the captivating story and immersive experience that awaits you in The Secrets of Hope. The game's full release is scheduled for September 7th, 2023, exclusively on Steam.<br>We have deliberately chosen this release date to allow us to complete our ongoing Kickstarter Campaign successfully, which features some amazing rewards. Additionally, we want to finalize our marketing efforts and address a few minor development tasks. By doing so, we aim to ensure that the game's launch is nothing short of exceptional.<br>To foster a stronger connection with our community, we will be actively sharing more updates and crafting community-centric posts. I encourage all of you to join our Discord channel and follow us on all our social media platforms. We are eager to engage with you and build closer relationships within our community.<br>Thank you all for your continued support, and we eagerly anticipate the release of The Secrets of Hope.<br>&#8192;&#8192;<a href='https://discord.gg/uBs47ZsCpm'>&#8193;Join The Discord&#8192;</a>&#8193;&#8193;<br>Best regards,<br>Josh<br><br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687479236,
+      "appid": 2245310,
+      "appName": "The Secrets Of Hope",
+      "images": []
+    },
+    {
+      "title": "Wishlist ViNovella University on Steam!",
+      "author": "Axe_of_Blitz",
+      "contents": "<span style='font-weight:bold'>Greetings everyone! </span>🥳<br>We are happy to share that <span style='text-decoration:underline'>ViNovella University is now available for Wishlist</span>!<br>A new and exciting and immersive adult visual novel set in a university where three girls mysteriously went missing! 👀<br>Set before the events of the popular game Fetish Locator, this narrative-driven experience allows players to <span style='font-style:italic'>shape their journey by engaging in a wide range of conversations with a diverse cast of characters, including the most beautiful and unique girls in the city</span><br><span style='font-weight:bold'>What are you waiting for? </span>&#8192;&#8192;<a href='https://store.steampowered.com/app/2459350/Vinovella_University_Book_One/'>&#8193;Wishlist Now!&#8192;</a>&#8193;&#8193;<br>&#8192;<img src='https://cdn.discordapp.com/attachments/788416782838136862/1121458847962366023/616x353_store_big_3.png' class='newImg'>&#8193;<br><span style='font-weight:bold'>And as always, Party Hard friends!</span><br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687457440,
+      "appid": 2231010,
+      "appName": "Fetish Locator Week Three",
+      "images": [
+        "https://cdn.discordapp.com/attachments/788416782838136862/1121458847962366023/616x353_store_big_3.png"
+      ]
+    },
+    {
+      "title": "THE BEST GAME FROM THE BALTICS!",
+      "author": "onionas1",
+      "contents": "Ready, Steady, Ship! emerged as a shining star at the Dev Gamm Game Expo, where it was nominated for and ultimately won the highly coveted \"Best Game from Baltics\" title. The event attracted numerous industry professionals, providing ample opportunities for networking, playtesting, and showcasing games. It was an exceptional experience that solidified Ready, Steady, Ship!'s position as an outstanding game within the Baltic game development community. Thanks, DevGamm!<br>More about the event:<br>&#8192;<iframe src='https://www.youtube.com/embed/'eKYuhFqYfDU;leftthumb' class='ytFrame'></iframe>&#8193;<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687455626,
+      "appid": 2225610,
+      "appName": "Ready, Steady, Ship!",
+      "images": [
+        "ythttps://www.youtube.com/embed/eKYuhFqYfDU;leftthumb"
+      ]
+    },
+    {
+      "title": "Developer Play",
+      "author": "sigma.indiegames",
+      "contents": "Play Cook Fest with all recipes & upgrades unlocked!<br>Feel the rush, chaos, and maze design technique from the dev itself ;)<br>Create and design your own complex maze by strategizing your festival spaces! Cook and serve dishes to satisfy your customers. Level up to unlock to new ingredients and recipes. With unexpected roguelite elements and fast-paced gameplay, you can play solo or in chaotic co-op with your fellow chef!<br>Cook Fest is a combination of strategic planning, restaurant management, tower defense, and chaotic kitchen action. It creates some fresh gameplay in the market and extremely fun roguelite experiences unlike any other.<br><br>Don't forget to wishlist it!<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687445020,
+      "appid": 2235210,
+      "appName": "Cook Fest",
+      "images": []
+    },
+    {
+      "title": "For Evelyn II - Next Fest Stream",
+      "author": "Sam P",
+      "contents": "We are playing the demo of For Evelyn II during Steam Next Fest, come see whats up!<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687429088,
+      "appid": 2248960,
+      "appName": "For Evelyn II - Shards of Creation",
+      "images": []
+    },
+    {
+      "title": "⚔ Let's play with the dev!",
+      "author": "Chochosan",
+      "contents": "<h4>Let's blow up those orcs together! </h4><br>Come watch me play Survive The Orcs - will have a few runs on stream. Feel free to ask questions in the chat - I'll be there to answer.<br>See you soon!<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687427763,
+      "appid": 2202200,
+      "appName": "Survive the Orcs",
+      "images": []
+    },
+    {
+      "title": "🤘 Lets Break Some Glasses 🤘",
+      "author": "Chisenoa",
+      "contents": "Hey everyone! We arranged a dev live stream in Next Fest. We'll be playing Lovux as it's developers. Join us!<br>Livestream link:<br>&#8192;<a href='https://steamcommunity.com/broadcast/watch/76561198380362844'>&#8193;LINK&#8192;</a>&#8193;&nbsp;",
+      "feedlabel": "Community Announcements",
+      "date": 1687426189,
+      "appid": 2244630,
+      "appName": "Lovux",
+      "images": []
+    },
+    {
+      "title": "Hardhat Wombat Live Stream with Plants vs Zombies creator, George Fan",
+      "author": "All Yes Good",
+      "contents": "From the creator of Plants vs. Zombies, Hardhat Wombat is a cute puzzle-platformer construction game based on the most interesting fact in the world: wombats have cube-shaped poo. Doo-doo your best to deftly stack blocks of poo and complete increasingly perplexing constructions. Can you become number one at number two?<br>Puzzle and platform your way through 92 levels of poo-stacking fun!<br>Traverse through seven worlds, each with its own unique building material like vines made of broccoli and gum bubbles that float upward.<br>Encounter a variety of level types including brain-bending Dynamite levels and action-packed Beetle Hunt levels.<br>Unlock additional game modes including the Daily Gauntlet, where you can compete against other players for wombat pooping supremacy!<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687376753,
+      "appid": 2202750,
+      "appName": "Hardhat Wombat",
+      "images": []
+    },
+    {
+      "title": "From Concept to Creation: Programancer Dev Log #3",
+      "author": "ryan.rasing",
+      "contents": "Prison City's lead developer, Programancer, sits down to talk about the game's music, working with Retroware's testers, and why Hal uses a chakram!<br><span style='font-weight:bold'>Question #1: What did you envision for the music in the game? Did you take the inspiration from certain artists/games when it came to that? Also, what was it like working Raddland Studios and Matt Creamer?</span><br><span style='font-weight:bold'>Programancer</span>: When I first started Prison City, I kept thinking about music from games like Street Fighter 2010 and Power Blade- a mix of high octane NES goodness and catchy melodies. I have been a huge fan of Matt Creamer's work since playing Retro City Rampage and I knew from the start that he was the only person I wanted to create music for this game! Working with him has been wonderful, and he knocks it out of the park with every track!<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43163498/efbc094de4453c0983832d49f1f7d2d541ee5f39.png' class='newImg'>&#8193;<br><span style='font-weight:bold'>Question #2: Can you describe what it was like working with the testers at Retroware? What are some notable bugs you or the testers found that you're relieved to have resolved?</span><br><span style='font-weight:bold'>Programancer</span>: They're the essential front lines of the bug war! It is so easy for bugs to slip through the cracks that developers would never find- we get so used to our games that we go through the motions as if it's just second nature- we can set out to test every possible thing those changes may have affected. The testers have been really awesome to work with and they've found things I absolutely never would have found on my own- and honestly, it's a huge relief every time a bug is found because it gives me an opportunity to dive into things I probably haven't touched in a while and fix them up- or in some cases make things better than they were before<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43163498/85aec7b4c20c7e348c79ee198e7071757b9a2b7e.png' class='newImg'>&#8193;<br>As for a bug that I'm most relieved to have resolved is one where a certain NPC just idles on screen having a smoke after you're supposed to respawn from dying. While it was enjoyable to see that NPC have a nice relaxing break, it wasn't a whole lot of fun for the player!<br>Of course, there are some bugs I try to keep in, however, if they're helpful for speedrunners--and can only be triggered with a deliberate attempt--but that one just wasn't cutting it.<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43163498/8e1f8d1b1f65fa824bd4de399ebfb00b98682f6b.png' class='newImg'>&#8193;<br><span style='font-weight:bold'>Question #3: Why did you decide to go with a chakram as the primary weapon for Hal? Did you consider other weapons prior to deciding on the chakram? Also, can you describe what it was like getting the chakram to work as desired/as in its current state in the game?</span><br><span style='font-weight:bold'>Programancer</span>: The chakram was actually one of the first things I coded, and honestly I didn't have much time to consider another type of weapon when I started developing Prison City-<br>I knew that I didn't want to go with a gun and instead wanted to go a gun and instead wanted to go with something with a little more subtle nuance that didn't have unlimited range but could still be utilized in 8 directions. I've always been a big fan of Power Blade's boomerang, but I didn't want to go quite as far in that direction either- I did like the idea of a returning weapon though. I ended up looking to Xena for inspiration- Xena had a chakram and Xena is cool! The thing where the chakram returns to you with a different arc depending on which direction you're facing was inspired by Link's Awakening- where Link will swing his sword from different angles depending on what direction you're facing.<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43163498/ccf146dbd4609f43a065075d37a7a55c660bb551.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43163498/8f8e709991086bf18f23741d55bb3bf837a44c83.png' class='newImg'>&#8193;<br>With all of that in, I knew the game would have to be designed almost entirely around the player's moveset and weapons, so I made sure there were some beneficial quirks to it- like for example: even though the chakram returns to the player after hitting a wall, it will still push through slightly so you can damage enemies or crates that are next to the wall it's hitting. In some cases, enemies will be positioned perfectly around the player, and if the player holds the attack button when throwing a chakram, it'll hang out in front of them for a while, and they can move it around them briefly. This was inspired by Castlevania 4's whipping mechanics!<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43163498/6e8ea13970a147e65405b5109a5e0b67df8aa26f.png' class='newImg'>&#8193;<br>That's all we've got this time! Check back for more updates!<br>Download and play the free Prison City demo now!<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687367765,
+      "appid": 2179860,
+      "appName": "Prison City",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/43163498/efbc094de4453c0983832d49f1f7d2d541ee5f39.png",
+        "https://clan.cloudflare.steamstatic.com/images/43163498/85aec7b4c20c7e348c79ee198e7071757b9a2b7e.png",
+        "https://clan.cloudflare.steamstatic.com/images/43163498/8e1f8d1b1f65fa824bd4de399ebfb00b98682f6b.png",
+        "https://clan.cloudflare.steamstatic.com/images/43163498/ccf146dbd4609f43a065075d37a7a55c660bb551.png",
+        "https://clan.cloudflare.steamstatic.com/images/43163498/8f8e709991086bf18f23741d55bb3bf837a44c83.png",
+        "https://clan.cloudflare.steamstatic.com/images/43163498/6e8ea13970a147e65405b5109a5e0b67df8aa26f.png"
+      ]
+    },
+    {
+      "title": "21/06/2023 bug fixes",
+      "author": "Alex",
+      "contents": "Hello everyone,<br>Based on player feedback and suggestions, we have fixed some issues present in the game.<br>Fixed:<br>Fixed crash issues.<br>Adjusted the auto-save function from when the menu is opened to when it is closed.<br>We are working hard to provide a better gaming experience for our players.<br>Thank you very much.<br>Hanabi Games<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687355966,
+      "appid": 2248120,
+      "appName": "Light and Shadow - Doppelganger",
+      "images": []
+    },
+    {
+      "title": "New models of our main characters!",
+      "author": "merc.std",
+      "contents": "We promised – we show! 😃<br>You have often said that you don't really like the way our characters look and we decided to do it! In general, we are ready to finally show new models of our main characters!<br>&#8192;<img src='https://sun9-18.userapi.com/impg/MFXj61Mn02JG30R7U2a8MeTSEVu3nzRDQyjrlA/aZ4-9ZgRQ1o.jpg?size=1080x1080&quality=95&sign=31d242c2cf875343ead771cc75c8222c&type=album' class='newImg'>&#8193;<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687354385,
+      "appid": 2225800,
+      "appName": "3х9 Царство: Дорога приключений",
+      "images": [
+        "https://sun9-18.userapi.com/impg/MFXj61Mn02JG30R7U2a8MeTSEVu3nzRDQyjrlA/aZ4-9ZgRQ1o.jpg?size=1080x1080&quality=95&sign=31d242c2cf875343ead771cc75c8222c&type=album"
+      ]
+    },
+    {
+      "title": "Watch as the solo GeoDepths developer plays his own demo",
+      "author": "Matherno",
+      "contents": "Enjoy some gameplay of GeoDepths, my drill mining game that I have been working on for over a year part time, in between working a full time job and keeping up a social life XD.<br>This is just prerecorded gameplay, but feel free to join either of two scheduled livestreams for chats with the developer. Check out the livestream events on the store page for their times.<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687349477,
+      "appid": 2206140,
+      "appName": "GeoDepths",
+      "images": []
+    },
+    {
+      "title": "Reloading",
+      "author": "[IT] highcla",
+      "contents": "Hey, everyone!<br>Considering the very positive reception of the idea on Discord, i'm implementing a <span style='font-weight:bold'>reload system</span> for all the weapons.<br>It wasn't there from the beginning, deliberately, to give EMPTY SHELL more of a \"Quake\" vibe, but the game is shaping up in a way that a reload system would fit nicely.<br>Some weapons (most of them) will work with <span style='font-weight:bold'>mags</span>, others (like the shotgun and the hunting rifle in the prologue, for example) will have <span style='font-weight:bold'>single round</span> reload (with a finite number of maximum rounds in the internal magazine).<br><span style='font-weight:bold'>Dodging, aiming, or melee strikes will interrupt the action</span>, so keep a distance when reloading.<br>Also, <span style='font-weight:bold'>reloading won't be automatic</span> (shooting with an empty weapon with spare ammo won't reload), so keep an eye on the ammo counter!<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687341593,
+      "appid": 2243110,
+      "appName": "EMPTY SHELL",
+      "images": []
+    },
+    {
+      "title": "Citadel Stormer 2 | DEMO",
+      "author": "Pixeltroid",
+      "contents": "Blast your way through a world of deadly robots and monstrous machines in this explosive run-and-gun action platformer inspired by '90s classics!<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687341309,
+      "appid": 2224160,
+      "appName": "Citadel Stormer 2",
+      "images": []
+    },
+    {
+      "title": "Demo OST Released",
+      "author": "ChairGTables",
+      "contents": "Now that our demo is available for everyone to play, you too can enjoy all the tracks you encountered in the demo so far. Experience all the songs at their highest quality in Bandcamp.<br>&#8192;&#8192;<a href='https://sylvysprit.bandcamp.com/album/hazuki-dies-she-has-no-name-ost'>&#8193;&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43317329/6194ea0c28e80849abd71a5ea972d43bb637a8fb.png' class='newImg'>&#8193;&#8192;</a>&#8193;&#8193;<br>&#8192;&#8192;<a href='https://sylvysprit.bandcamp.com/album/hazuki-dies-she-has-no-name-ost'>&#8193;Click here to view the official soundtrack<br>&#8192;</a>&#8193;&#8193;<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687331922,
+      "appid": 2228000,
+      "appName": "Hazuki Dies: She Has No Name",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/43317329/6194ea0c28e80849abd71a5ea972d43bb637a8fb.png"
+      ]
+    },
+    {
+      "title": "☁️☁️☁️Our new cute puzzle game \"Poly Jigsaw: Primates\" now available on Steam!☁️☁️☁️",
+      "author": "Cute Hanna",
+      "contents": "&#8192;<a href='https://store.steampowered.com/app/2463210/Poly_Jigsaw_Primates/'>&#8193;LINK&#8192;</a>&#8193;&nbsp;<br>️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️ 💜🤍💜🤍💜🤍<br><br><q><span style='font-style:italic'><span style='font-weight:bold'>Hello, dear Player! Today we have prepared for You, new cute puzzle game, hope you like it! Thank you for your support us! Enjoy)</span></span></q><br><br>️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️ 💜🤍💜🤍💜🤍<br><br>&#8192;&#8192;<a href='https://store.steampowered.com/app/2463210/Poly_Jigsaw_Primates/'>&#8193;&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/40290495/07bb81ab7b09ab0f0106f5fde6c5f624bcf022d5.png' class='newImg'>&#8193;&#8192;</a>&#8193;&#8193;<br><br>️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️ 💜🤍💜🤍💜🤍<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687331329,
+      "appid": 2241350,
+      "appName": "Poly Memory: Animals",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/40290495/07bb81ab7b09ab0f0106f5fde6c5f624bcf022d5.png"
+      ]
+    },
+    {
+      "title": "☁️☁️☁️Our new cute puzzle game \"Poly Jigsaw: Primates\" now available on Steam!☁️☁️☁️",
+      "author": "Cute Hanna",
+      "contents": "&#8192;<a href='https://store.steampowered.com/app/2463210/Poly_Jigsaw_Primates/'>&#8193;LINK&#8192;</a>&#8193;&nbsp;<br>️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️ 💜🤍💜🤍💜🤍<br><br><q><span style='font-style:italic'><span style='font-weight:bold'>Hello, dear Player! Today we have prepared for You, new cute puzzle game, hope you like it! Thank you for your support us! Enjoy)</span></span></q><br><br>️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️ 💜🤍💜🤍💜🤍<br><br>&#8192;&#8192;<a href='https://store.steampowered.com/app/2463210/Poly_Jigsaw_Primates/'>&#8193;&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/40290495/07bb81ab7b09ab0f0106f5fde6c5f624bcf022d5.png' class='newImg'>&#8193;&#8192;</a>&#8193;&#8193;<br><br>️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️ 💜🤍💜🤍💜🤍<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687331329,
+      "appid": 2239050,
+      "appName": "Poly Puzzle: Animals",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/40290495/07bb81ab7b09ab0f0106f5fde6c5f624bcf022d5.png"
+      ]
+    },
+    {
+      "title": "☁️☁️☁️Our new cute puzzle game \"Poly Jigsaw: Primates\" now available on Steam!☁️☁️☁️",
+      "author": "Cute Hanna",
+      "contents": "&#8192;<a href='https://store.steampowered.com/app/2463210/Poly_Jigsaw_Primates/'>&#8193;LINK&#8192;</a>&#8193;&nbsp;<br>️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️ 💜🤍💜🤍💜🤍<br><br><q><span style='font-style:italic'><span style='font-weight:bold'>Hello, dear Player! Today we have prepared for You, new cute puzzle game, hope you like it! Thank you for your support us! Enjoy)</span></span></q><br><br>️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️ 💜🤍💜🤍💜🤍<br><br>&#8192;&#8192;<a href='https://store.steampowered.com/app/2463210/Poly_Jigsaw_Primates/'>&#8193;&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/40290495/07bb81ab7b09ab0f0106f5fde6c5f624bcf022d5.png' class='newImg'>&#8193;&#8192;</a>&#8193;&#8193;<br><br>️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️ 💜🤍💜🤍💜🤍<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687331329,
+      "appid": 2190270,
+      "appName": "PIP 6",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/40290495/07bb81ab7b09ab0f0106f5fde6c5f624bcf022d5.png"
+      ]
+    },
+    {
+      "title": "☁️☁️☁️Our new cute puzzle game \"Poly Jigsaw: Primates\" now available on Steam!☁️☁️☁️",
+      "author": "Cute Hanna",
+      "contents": "&#8192;<a href='https://store.steampowered.com/app/2463210/Poly_Jigsaw_Primates/'>&#8193;LINK&#8192;</a>&#8193;&nbsp;<br>️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️ 💜🤍💜🤍💜🤍<br><br><q><span style='font-style:italic'><span style='font-weight:bold'>Hello, dear Player! Today we have prepared for You, new cute puzzle game, hope you like it! Thank you for your support us! Enjoy)</span></span></q><br><br>️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️ 💜🤍💜🤍💜🤍<br><br>&#8192;&#8192;<a href='https://store.steampowered.com/app/2463210/Poly_Jigsaw_Primates/'>&#8193;&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/40290495/07bb81ab7b09ab0f0106f5fde6c5f624bcf022d5.png' class='newImg'>&#8193;&#8192;</a>&#8193;&#8193;<br><br>️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️💜🤍💜🤍💜🤍💜🤍️ 💜🤍💜🤍💜🤍<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687331329,
+      "appid": 2190280,
+      "appName": "Poly Memory: Dinosaurs",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/40290495/07bb81ab7b09ab0f0106f5fde6c5f624bcf022d5.png"
+      ]
+    },
+    {
+      "title": "Explore Historic Monuments and Solve Puzzles in Our Exciting New Game!",
+      "author": "Tribus Games Indie",
+      "contents": "&#8192;<img src='https://clan.akamai.steamstatic.com/images/38982386/2d905824b0637a263a10b2cd1b512c97d01b5884.jpg' class='newImg'>&#8193;<br><br>Discover historic monuments with our puzzle game! With 20 incredible images and 5 levels of difficulty, this game will challenge your mind and take you on a journey through history. Test your skills in free mode or challenge mode. Play now and start exploring the world of historic monuments!<br><br><span style='font-weight:bold'>Release Date: June 22nd<br></span><br>[list]<br></li><li> Unlock and explore 20 stunning images<br></li><li> 5 levels of difficulty for players of all skill levels<br></li><li> Free mode to relax and appreciate the beauty of the monuments<br></li><li> Challenge mode to test your skills and push your limits<br></li></ul><br><br>Don't miss out! Be ready for the release on June 22nd!<br><br>I hope this helps! Good luck with the launch of your new game!<br><br>&#8192;<a href='https://store.steampowered.com/app/2363920/'>&#8193;LINK&#8192;</a>&#8193;&nbsp;",
+      "feedlabel": "Community Announcements",
+      "date": 1687303258,
+      "appid": 2208070,
+      "appName": "Jigsaw Puzzle Best Places",
+      "images": [
+        "https://clan.akamai.steamstatic.com/images/38982386/2d905824b0637a263a10b2cd1b512c97d01b5884.jpg"
+      ]
+    },
+    {
+      "title": "🔫 KEY DROPS & DEV LIVESTREAM 🔴",
+      "author": "stevel",
+      "contents": "&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43454218/4aa7fcf0318b7c2690b6be4bbcf2c0517dde4794.png' class='newImg'>&#8193;<br>Hello Bullet Hell fans!<br>Join us for an exciting developer live stream during Steam Next Fest! Tune in to watch Robin play and talk gameplay reveals, behind-the-scenes insights, and a chance to win a free Steam code! <br>Don't miss out on this thrilling opportunity to be part of the action. Plus, make sure to wishlist Probo Rush to ensure you don't miss the launch discount. <br>Wishlist today and be among the first to embark on this epic adventure!<br>&#8192;<a href='https://store.steampowered.com/app/2250170/Probo_Rush/?utm_source=nextfest'>&#8193;LINK&#8192;</a>&#8193;&nbsp;",
+      "feedlabel": "Community Announcements",
+      "date": 1687290091,
+      "appid": 2250170,
+      "appName": "Probo Rush",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/43454218/4aa7fcf0318b7c2690b6be4bbcf2c0517dde4794.png"
+      ]
+    },
+    {
+      "title": "🌺 Anime Girls 🌺",
+      "author": "HOLYPERSON",
+      "contents": "&#8192;<a href='https://store.steampowered.com/app/2205600/Ojiv/?snr=1_5_1100__1100'>&#8193;LINK&#8192;</a>&#8193;&nbsp;We are excited to write down our first blog. We have been working on our game for a while and it will be<br>available for you to try on Steam Next Fest 19 June 2023.<br>You’ll also be able to join the developer stream on June 19th, 2023. We are humbled by your continuous support from day one.<br>Ojiv is a fast paced immersive rhytm game.<br><ul><li> Groove along great beats while ripping apart clothings of anime girls.</li><li> Wide selection of handmade levels.</li><li> Different difficulty levels for everyone with every skill level to be able to enjoy this experience.</li><li> Variety of music genres.</li><li> Sexy villans for each music.</li></ul><br>That’s enough for today’s blog, we would like to see all of you on Steam Next Fest. We can’t wait to bring the full version.<br>Our Discord server is ready here for you to jump in if you would like to reach us directly.<br>Don’t forget to add to your wishlist, stay tuned!<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687288378,
+      "appid": 2205600,
+      "appName": "Ojiv",
+      "images": []
+    },
+    {
+      "title": "Check out Shiba Inu demo on Steam Next Fest!",
+      "author": "Quilliano",
+      "contents": "We're excited to be part of this Steam Next Fest. Download our demo and experience the dystopian sci-fi world of dogs!<br>&#8192;<a href='https://store.steampowered.com/app/2182990/Autumn_with_the_Shiba_Inu/'>&#8193;LINK&#8192;</a>&#8193;&nbsp;On a side note, our sister studio, Quill Yuri, is publishing \"Lachesis or Atropos\", a horror mystery yuri visual novel by 4noki. Check it out and wishlist!<br>&#8192;<a href='https://store.steampowered.com/app/2234770/Lachesis_or_Atropos/'>&#8193;LINK&#8192;</a>&#8193;&nbsp;",
+      "feedlabel": "Community Announcements",
+      "date": 1687279094,
+      "appid": 2182990,
+      "appName": "Autumn with the Shiba Inu",
+      "images": []
+    },
+    {
+      "title": "UPDATE: July 18th release date for Lachesis or Atropos",
+      "author": "Quilliano",
+      "contents": "Quill Yuri is excited to announce we're publishing 4noki's horror mystery yuri visual novel, Lachesis or Atropos, on Steam.<br>We pushed the date on Valve's recommendation; the previous date had reduced algorithm visibility due to overlap with the Summer Sale. Thank you for the patience!<br>A private investigator visits a small town after recovering from a coma. She searches for her mentor's lost beloved, but the very eyes she was born with, those that can see the black strings of hate, drag her down into the darkness of conspiracy.<br>Out on July 18th, 2023. Wishlist on Steam now!<br>&#8192;<a href='https://store.steampowered.com/app/2234770/Lachesis_or_Atropos/'>&#8193;LINK&#8192;</a>&#8193;&nbsp;&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43684184/4f0094a6df28fe36ba365282b4024f074e757276.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43684184/31762a4067c78c611bc6f7b627299885b72baabc.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43684184/bac0143557a2504cb1a832cc454fd1c26676b1cc.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43684184/2170c1b07003aafb7e8854b3aaf84bbb4e789e7d.png' class='newImg'>&#8193;<br><br><br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687277518,
+      "appid": 2234770,
+      "appName": "Lachesis or Atropos",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/43684184/4f0094a6df28fe36ba365282b4024f074e757276.png",
+        "https://clan.cloudflare.steamstatic.com/images/43684184/31762a4067c78c611bc6f7b627299885b72baabc.png",
+        "https://clan.cloudflare.steamstatic.com/images/43684184/bac0143557a2504cb1a832cc454fd1c26676b1cc.png",
+        "https://clan.cloudflare.steamstatic.com/images/43684184/2170c1b07003aafb7e8854b3aaf84bbb4e789e7d.png"
+      ]
+    },
+    {
+      "title": "Stand-Alone Dev Log #1",
+      "author": "lifuelgames",
+      "contents": "<br>Hello, this is Lifuel, developing Stand-Alone. <br>We've decided to start this development diary to share various challenges <br>we've faced in the process of developing Stand-Alone and the principles we adhere to. <br>We also hope to grow through your feedback and interactions. <br>We'll continue to share these development stories from time to time.<br>Today, I want to talk about 'Action'.<br>Stand-Alone is a pixel-graphic action roguelike game. <br>'Action' is an essential element in the roguelike genre, <br>and we believe it's a core appeal of the genre. <br>Therefore, we've put considerable thought into how to deliver high-quality action.<br>Our excellent team members are creating great pixel graphics and sprite animations, <br>focusing on stable controls, dazzling effects, natural camera movements, impactful skills, <br>and tension-filled battle designs. <br>Although discussing these technical aspects is important, <br>today, I'd like to talk about the topic that we've been primarily concerned with: <br>'Respecting the player's experience.'<br>Stand-Alone, borrowing the format of the roguelike genre, is a game <br>where players continually grow and challenge themselves, <br>acquiring and combining various skills through unpredictable enemies and events. <br>Therefore, we're striving to ensure that players can fully enjoy growing in different ways <br>and becoming stronger through their unique combinations and synergies.<br>However, we also understand that some players want to test their control skills without power-ups <br>and challenge themselves in 'challenge play'. <br>We believe that we should respect the demands of these challenging players, <br>and we welcome such challenges.<br><br>&#8192;<iframe src='https://www.youtube.com/embed/'ptMEX25x6us;full' class='ytFrame'></iframe>&#8193;<br><br>Hence, while developing the recent boss fight design, <br>we have considered how to make it challenging enough for skilled players to defeat the boss <br>without power-ups.<br>Not all players of Stand-Alone will choose or experience these elements. <br>However, we're striving to create an action roguelike game <br>where the constant challenges and player choices each carry their own meanings, <br>and these are connected to enjoyment. <br>We hope that each player's unique choices and play styles can lead to meaningful gaming experiences.<br>In this way, we're continuing the development of Stand-Alone, <br>valuing the players' choices and experiences. <br>We'll continue to work tirelessly to create a game that <br>fully brings out the charm of the action roguelike genre. :)!<br><br>We are actively communicating through Discord and Twitter, <br>so if you're curious about our team's updates or want to participate, <br>please join us through the link below.<br><br>Contact Us<br>&#8192;&#8192;<a href='discord.gg/ynJgwknHYr'>&#8193;&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43278504/0f21cb05a3d33b10f948a72c321555b60e847edf.png' class='newImg'>&#8193;&#8192;</a>&#8193;&#8193;<br>&#8192;&#8192;<a href='https://twitter.com/lifuelgames'>&#8193;&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43278504/07dd6e4d7ac5dc02e7592ecd9e4e466e769a79b6.png' class='newImg'>&#8193;&#8192;</a>&#8193;&#8193;<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687276786,
+      "appid": 2226730,
+      "appName": "STAND-ALONE",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/43278504/0f21cb05a3d33b10f948a72c321555b60e847edf.png",
+        "https://clan.cloudflare.steamstatic.com/images/43278504/07dd6e4d7ac5dc02e7592ecd9e4e466e769a79b6.png",
+        "ythttps://www.youtube.com/embed/ptMEX25x6us;full"
+      ]
+    },
+    {
+      "title": "200623 Patch Notes",
+      "author": "HalfwishDev69",
+      "contents": "- Changes:<br>- Tutorial Controls changed so that users can now interact with cards in Tutorial (Action Cards / Power / Adventure)<br>- Per game lamp limit changed as per requested<br>- Status Icons updated design (Overshield and Zen Stance)<br>- Increased the space for the mask for the portraits when using powers so lesser cutoff where possible<br>- Assassin able to get passive from evades again<br>- Changed Networking logic to properly reconnect if disconnected(Needs more testing especially when playing on different regions and high ping)<br>- Ice Beam Giving frozen status should not lock dv but instead snapshots the DV for the next roll<br>- Ignite No healing will last through out the entire round now<br>- Consecutive Parleys now give points once every 2 consecutive parleys now<br>- Bug Fixes:<br>- Fix for splashscreen video suddenly not playing when returning to main menu (Addition logic added to try check as often as possible to force video to resume if it ever detects the video is not running)<br>- Fixed a bug that caused math bar to show 0 defense<br>- Fixed a bug that caused feral strike's additional strike to not be shown in math bar<br>- Fixed a bug that cause scry to not parley thus making the game unable to continue<br>- Fixed a bug that made all adventure damage cards to not calculate with status <br>- Fixed a bug that made showdown card displays be misaligned<br>- Allowed status stacks to be seen in double digits(e.g having Juggernaut Shield + Zenstance giving the player 10 stacks of toughness)<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687261328,
+      "appid": 2238830,
+      "appName": "Halfwish Playtest",
+      "images": []
+    },
+    {
+      "title": "端午节限时活动公告",
+      "author": "GamerskyGames",
+      "contents": "<h5>活动时间：北京时间6月19日-6月25日23:59</h5><br><h5>端午粽香</h5><br>6月19日-6月25日活动期间，每日击败任意敌人、进行贸易（单次利润>10000金币）时，有概率获得蜜枣粽子（每日上限50）、咸蛋黄粽子（每日上限25）,可在活动界面兑换各种道具好礼。<br><h5>累充好礼</h5><br>6月19日-6月25日活动期间，累计充值达到指定档位，即可额外获得丰厚稀有道具和豪华粽子，豪华粽子可用于在端午粽香中兑换奖励。<br><h5>消费返利</h5><br>6月19日-6月25日活动期间，累计消耗一定数额钻石（含蓝钻、彩钻），可在此领取奖励。<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687256148,
+      "appid": 2202430,
+      "appName": "Uncharted Ocean 2",
+      "images": []
+    },
+    {
+      "title": "6月20号更新说明",
+      "author": "chengdu_ud_ltd",
+      "contents": "[olist]</li><li>修复了在低分辨率下界面可能出错的问题。</li><li>新增了图马斯特T300方向盘的适配。<br>[/olist]<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687254697,
+      "appid": 2242470,
+      "appName": "DrivingSchool-驾驶学校",
+      "images": []
+    },
+    {
+      "title": "Open Beta Is Online",
+      "author": "momoStorm Entertainment",
+      "contents": "&#8192;<a href='http://www.playecb.com'>&#8193;LINK&#8192;</a>&#8193;&nbsp;The open beta for ECB3 will begin on June 10th, 2023. After the beta is completed, the game will officially launch.<br>Qualifications for Participation:<br>This test is open to all players. No application is required.<br>How to Participate:<br>At this stage, the game is only available for download on Google Play. When the open beta test begins, search for “Epic Cards Battle 3” on the Google Play store and download the client. More platforms will be gradually added in the future.<br>Game Data:<br>Player data from the open beta will not be retained on the official server. The open beta server will continue to exist. Before each new version is officially launched, it will first be opened on the open beta test server.<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687248258,
+      "appid": 2239230,
+      "appName": "Epic Cards Battle 3",
+      "images": []
+    },
+    {
+      "title": "Instarion Playtest — July 2023",
+      "author": "pushnovnn",
+      "contents": "We’re launching our first playtest in early July! <br>Pretty much nothing is ready, so it’s mostly to test a few technical elements.<br>During playtest you’ll be able to move between planets, visit several locations, try some basic fighting, buy and upgrade your transport, and do all that together with your friends.<br>Fell free to apply for Playtest on our Steam page, we would be grateful for any feedback!<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687246719,
+      "appid": 2248010,
+      "appName": "Instarion",
+      "images": []
+    },
+    {
+      "title": "Mini Knight's Journey Demo is now available for everyone!",
+      "author": "Prismacore Dream",
+      "contents": "<h5>Don't forget to test the demo! It's available until June 26th!</h5><br>&#8192;<a href='https://store.steampowered.com/app/2222250/Mini_Knights_Journey/'>&#8193;LINK&#8192;</a>&#8193;&nbsp;",
+      "feedlabel": "Community Announcements",
+      "date": 1687217071,
+      "appid": 2222250,
+      "appName": "Mini Knight's Journey",
+      "images": []
+    },
+    {
+      "title": "Steam Fest week!!!",
+      "author": "abyssal.tree.123",
+      "contents": "Hi, I'm Jorge the dev, I'll be playing the complete version of Shape Shipter, come and join me!!<br>If you are a Bullet Hell or Arcade fan I'm pretty sure you are going to love it!!<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687206471,
+      "appid": 2229590,
+      "appName": "Shape Shipter",
+      "images": []
+    },
+    {
+      "title": "True Colours Next Fest Appearance!",
+      "author": "Borealis",
+      "contents": "<span style='font-weight:bold'>Steam's June 2023 Next Fest has begun!</span><br>From June 19th - 26th, True Colours will feature as part of Steam's amazing upcoming games focus!  Don't forget - you can play our extended demo for FREE on our store page, and there'll be more goodies to come!<br>Check out the main Next Fest page right here for all the info and coverage of all the coolest stuff on offer:<br>&#8192;&#8192;<a href='https://store.steampowered.com/sale/nextfest'>&#8193;Next Fest Main Page&#8192;</a>&#8193;&#8193;<br>And remember, if you wanna be the first to know EVERYTHING about the development and release of True Colours, sign up below to become a member of the Borealis Games Club - a weekly newsletter where I share exclusive behind the scenes content ahead of public release!<br>&#8192;&#8192;<a href='https://borealis-games.mailchimpsites.com/'>&#8193;Borealis Games Club&#8192;</a>&#8193;&#8193;<br><span style='font-weight:bold'>Enjoy!<br>Borealis</span><br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687195699,
+      "appid": 2205230,
+      "appName": "True Colours",
+      "images": []
+    },
+    {
+      "title": "Ver. 1.2.5 Addition of voice chat function",
+      "author": "youdoyou.motto",
+      "contents": "Thank you for playing this game.<br>We are pleased to announce that we have added a voice chat function in the online play mode.<br>You can freely change the microphone on/off and connect/disconnect voice chat from the sound tab.<br>If you cannot hear the other player, please check the microphone settings on your computer.<br>Thank you for your patience, and we hope you enjoy the game after the update.<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687194118,
+      "appid": 2238760,
+      "appName": "Our Casual Battlefield",
+      "images": []
+    },
+    {
+      "title": "Celebrate with new arrivals, download the \"TraceTheLight\" Demo！",
+      "author": "4786650",
+      "contents": "<h4> Celebrate with new arrivals, download the \"TraceTheLight\" Demo！</h4><br>Warmly celebrate the arrival of the Steam New Product Festival in June 2023, come and explore the grand world of \"Trace the Light\"! Download the demo now and join us in celebrating Steam's grand event. We can't wait to see what you do in the game.<br>&#8192;&#8192;<a href='https://store.steampowered.com/app/2179370/style=button'>&#8193;Click here to download the demo! &#8192;</a>&#8193;&#8193;<br><br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43149099/87526361f279bfae497cf5dca90eb877e0d3ae52.gif' class='newImg'>&#8193;<br><br><h4>During the new product festival, share your views with us</h4><br>During the Steam New Product Festival, we arranged a live broadcast for developers to let everyone know more about the content and wonderful experience of the game. After watching the live broadcast or experiencing the demo, if you are interested in \"Light Walk\", you are welcome to add the game to your wish list, and you can also click the link below to join the official player exchange group and share your suggestions and ideas with us!<br><br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43149099/810e9b1a7e8a5875dbb53929ce55d2b847964ef5.gif' class='newImg'>&#8193;<br><br><h4>Follow-up development and improvement</h4><br>Participating in the Steam New Product Festival is a memorable moment for \"Light Journey\", which means that our efforts have achieved phased results. As a development team, we certainly hope that the game can be released to everyone as soon as possible, but at the same time, we also know that the completion of the game at this stage is still low, and it still takes a long time to polish the upper limit of the official version of the game. During this period, we welcome any suggestions or BUG feedback on the game, please let us make the game better together!<br>&#8192;&#8192;<a href='https://qm.qq.com/cgi-bin/qm/qr?k=b4jW7ylHxXQYz4SlDaxMjLtl9bpNdrnp&jump_from=webapi&authKey=g7LVHaspQXPVVfje/5SisQQF/qf8s3MTlxKLC+YYmx6NutlvwzivZ8qd6mGovCLM '>&#8193;Click here to join the official player exchange group: 434276599&#8192;</a>&#8193;&#8193;<br><br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43149099/54e7d802c26d905f398b7e92de7a9f72da15fb3a.gif' class='newImg'>&#8193;<br><br>&#8192;<a href='https://store.steampowered.com/app/2179370/'>&#8193;LINK&#8192;</a>&#8193;&nbsp;[/url]<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687194047,
+      "appid": 2179370,
+      "appName": "溯光行",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/43149099/87526361f279bfae497cf5dca90eb877e0d3ae52.gif",
+        "https://clan.cloudflare.steamstatic.com/images/43149099/810e9b1a7e8a5875dbb53929ce55d2b847964ef5.gif",
+        "https://clan.cloudflare.steamstatic.com/images/43149099/54e7d802c26d905f398b7e92de7a9f72da15fb3a.gif"
+      ]
+    },
+    {
+      "title": "Theorie und Wishlist",
+      "author": "grooviak",
+      "contents": "Werte Beuteltierfans,<br>das Känguru-Game hat vor 6 Monaten das Licht der Welt erblickt, und diesen halben Geburtstag möchten wir feiern - und zwar mit dem bisher höchsten Rabatt! Endlich gibt es das Game hier auf Steam für knapp 5 Euro. <br>Ja ja, ich weiß, was ihr denkt: 5 Euro, das sind 10 Mark, das sind 20 Ostmark, das sind 100 Ostmark auf dem Schwarzmarkt … Aber schaut euch einfach mal die Rezensionen an und wieviel Spielzeit die Leude da so abgerissen haben; das ist doch verdammt viel Känguru-Spaß für nen schmalen Taler. Wer ab und zu mal in unseren Discord reinschaut, weiß auch, dass das Game leider bisher nicht gerade die Kasse zum Klingeln gebracht hat - im Gegenteil hat es noch nicht mal die Mindestsumme erreicht, die man auf Steam umsetzen muss, damit das Spiel Trading Cards und Community-Gegenstände haben darf. Erkennt man übrigens an dem mysteriösen Hinweis \"Profilfunktionen eingeschränkt\" rechts in der Feature-Liste auf der Steamseite. <br>Dabei könnte es so einfach sein: Wenn alle, die das Game auf der Wishlist haben, es jetzt kaufen würden, dann hätten wir die Summe ruckzuck erreicht. Und mal ehrlich: Wer hätte nicht gerne digitale Sammelkarten vom Känguru, Marc-Uwe, Krapotke, Herta und den ganzen anderen Haudegen? Und dazu schnuckelige Hintergründe, Rahmen, animierte Profilbilder und Badges mit den besten Rängen eines gewissen hierarchiefreien Geheimbunds?!?<br>Also macht es wie die vom Boxclub und … schlagt zu! <br>Die erste und zweite Regel des Boxclubs gilt hingegen nicht; falls ihr das Game selbst schon habt, dann redet unbedingt ständig und ganz viel darüber. Quatscht das Ding den Leuten auf, zwingt sie zum antiterroristischen Glück - Lasst die Theorie zur Praxis werden und bringt das Kapital zurück in die Hände der hart ackernden Arbeiterklasse … und damit meine ich UNS hier bei<br>TUNERMAXX ːDottieJoyː<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687194046,
+      "appid": 2231920,
+      "appName": "Die Känguru-Verschwörung",
+      "images": []
+    },
+    {
+      "title": "Leak. We're live streaming for the Steam Festival! Join us.",
+      "author": "rezunovevgeny",
+      "contents": "&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43276781/d66d5a85980ff312f6788aba9d809ee51880ea6b.jpg' class='newImg'>&#8193;<br>You work in a small laboratory for water research, enjoying a quiet and peaceful life you have with your wife and son.<br>Everything changes when Refleaktion Corporation becomes its new owner.<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43276781/31764d77bccdbdb9f2dc73c725066f77dc565b3f.png' class='newImg'>&#8193;<br>Having to make decisions that go against your morality, you keep telling yourself your lifelong project will result in a discovery that does more good than harm.<br>But there is a limit to everything.<br>Soon you find out that the next step in your research is conducting experiments on people. You quit your job in order to escape to the countryside with your family and clear yourself of suspicion. <br>Except when you return home your wife and son are missing, and there is a corpse of an unknown man hanging from a ceiling in your study.<br>Get ready for it is just the beginning.<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43276781/60f0e7a0d607183d5450a4ada7775c84f9714461.png' class='newImg'>&#8193;<br>Immerse yourself in the world of Leak, where science meets rituals. Feel the fine line between hope and despair. Live out the story of a man who does the unthinkable in hopes to return to his normal life. <br>Resist the spirits that have entered our world in the form of pure agony and nightmares.<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43276781/b49042ffd00d8a5de78ab979370969165533c1f4.png' class='newImg'>&#8193;<br>Be the first to get the latest news! Links to our social media can be found on our website. There we share news about the game development process and exciting new materials. <br>We look forward to you joining our community!<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687183445,
+      "appid": 2183890,
+      "appName": "Leak",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/43276781/d66d5a85980ff312f6788aba9d809ee51880ea6b.jpg",
+        "https://clan.cloudflare.steamstatic.com/images/43276781/31764d77bccdbdb9f2dc73c725066f77dc565b3f.png",
+        "https://clan.cloudflare.steamstatic.com/images/43276781/60f0e7a0d607183d5450a4ada7775c84f9714461.png",
+        "https://clan.cloudflare.steamstatic.com/images/43276781/b49042ffd00d8a5de78ab979370969165533c1f4.png"
+      ]
+    },
+    {
+      "title": "Steam Next Fest Demo Now Available!",
+      "author": "Fiction Factory Games",
+      "contents": "&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43797975/bbd0adf565ece304aecba3c9e7af16d106b18ade.jpg' class='newImg'>&#8193;<br>It's time! Load your grappling gun and give your hacker cat some treats, because we're stealing a national monument!<br>Play the one-caper demo of Penny Larceny today -- and don't forget to wishlist the game, to help us fight THE ALGORITHM(tm)! Our visibly during Next Fest can be improved by you clicking one little button!<br>(Also technically the event officially starts in a few hours, but we wanted to get the demo up early to make sure everything was A-OK and nothing was on fire.)<br>And throughout Next Fest, we'll have a looping video playing through the demo with the lead developer and content creator JellyCrowned! You could just watch that instead of playing yourself, but maybe do both? I mean, it's just a suggestion. Whatever, I'm not your dad.<br>See you on Crimr!<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687183147,
+      "appid": 2227030,
+      "appName": "Penny Larceny: Gig Economy Supervillain",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/43797975/bbd0adf565ece304aecba3c9e7af16d106b18ade.jpg"
+      ]
+    },
+    {
+      "title": "Charity Auction for It Returned to the Desert Physical Collector's Edition",
+      "author": "tim.rachor",
+      "contents": "Hello everyone,<br>I wanted to let you know that I've started a charity auction on eBay for the Collector's Edition of the game. There are only 5 in existence and they are not being sold elsewhere.<br><span style='font-weight:bold'>All proceeds will go to the UN Refugee Aid.</span><br>You can find the auction with all the details here:<br>&#8192;<a href='https://www.ebay.de/itm/374752243615'>&#8193;LINK&#8192;</a>&#8193;&nbsp;International shipping is available.<br>Please spread the word! ːsteamhappyː<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43112224/aee3a4e05b23f5b6af6b7cc3bbb28503fe8f334a.png' class='newImg'>&#8193;<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687182740,
+      "appid": 2188620,
+      "appName": "It Returned To The Desert",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/43112224/aee3a4e05b23f5b6af6b7cc3bbb28503fe8f334a.png"
+      ]
+    },
+    {
+      "title": "Preparation of the demo version for the publication",
+      "author": "Effect Studio",
+      "contents": "&#8192;<iframe src='https://www.youtube.com/embed/'x0SXkOyODz4;full' class='ytFrame'></iframe>&#8193;<br>Hello friends, subscribers and fans of the LE project, the development progress is gaining momentum, recently there has been active work on the client for the demo version, where you will have access to a lot of items, weapons, drones and robots, crafting, resources, etc. A huge cave with a lot of monsters and a boss, a fortification base, merchants and all ready-made mechanics databases at the time of the demo version. A lot of quests and tasks, hidden places and interesting characters, acquaintance with the commanders of the base, with its history and problems. Every day, locations are being developed and supplemented, new items are being added in parallel and the list of possible crafting, creation or processing of any items is expanding. Below I will attach a video of a brief overview of the base and gameplay, and you, dear friends, subscribe to the channel, add the game to what you want in the incentive, and if you want to help the project and its development, there are opportunities for various donations, do not forget about our discord on the development of the Life Effect project.<br>With respect to you LE and good mood.<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43189325/0331fb10bba1eac4f00e549950fa2045a7eb4c68.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43189325/55e90ae44f27e9ab6b6c1c3d56f42fd313cda977.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43189325/01d389764017413f50f53e0b8b49d8c5d92f0a80.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43189325/ade11d0483402095650217c4ca5481c2d093e9d0.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43189325/d06edb411c5b7deab632581ed1ae022baf0622b9.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43189325/0efdf21eb6a98e9036ca9082f0cbf71bf3daf997.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43189325/82707de1e9cca4055d9bb82e853ad362deca8291.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43189325/6197b79b810bd94e951239fcb394dd3a94a22296.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43189325/1a85e2519848fd130010e8b6355e7c1f2b670849.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/43189325/a4d922dec3cfb8dfbd53b1032bb6b6a98727cc35.png' class='newImg'>&#8193;<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687182578,
+      "appid": 2191050,
+      "appName": "Life Effect",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/43189325/0331fb10bba1eac4f00e549950fa2045a7eb4c68.png",
+        "https://clan.cloudflare.steamstatic.com/images/43189325/55e90ae44f27e9ab6b6c1c3d56f42fd313cda977.png",
+        "https://clan.cloudflare.steamstatic.com/images/43189325/01d389764017413f50f53e0b8b49d8c5d92f0a80.png",
+        "https://clan.cloudflare.steamstatic.com/images/43189325/ade11d0483402095650217c4ca5481c2d093e9d0.png",
+        "https://clan.cloudflare.steamstatic.com/images/43189325/d06edb411c5b7deab632581ed1ae022baf0622b9.png",
+        "https://clan.cloudflare.steamstatic.com/images/43189325/0efdf21eb6a98e9036ca9082f0cbf71bf3daf997.png",
+        "https://clan.cloudflare.steamstatic.com/images/43189325/82707de1e9cca4055d9bb82e853ad362deca8291.png",
+        "https://clan.cloudflare.steamstatic.com/images/43189325/6197b79b810bd94e951239fcb394dd3a94a22296.png",
+        "https://clan.cloudflare.steamstatic.com/images/43189325/1a85e2519848fd130010e8b6355e7c1f2b670849.png",
+        "https://clan.cloudflare.steamstatic.com/images/43189325/a4d922dec3cfb8dfbd53b1032bb6b6a98727cc35.png",
+        "ythttps://www.youtube.com/embed/x0SXkOyODz4;full"
+      ]
+    },
+    {
+      "title": "Update 19.06",
+      "author": "NeverSayNever",
+      "contents": "Update<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687175854,
+      "appid": 2173960,
+      "appName": "Devil's Island Playtest",
+      "images": []
+    },
+    {
+      "title": "The bestselling NTR series, \" My Neighbor's Lonely Wife\", is getting back-to-back releases at the end of this month with English localization!",
+      "author": "Chet",
+      "contents": "&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/41075428/073da1cc197494f6b9556d10eab852b6c6b0985d.jpg' class='newImg'>&#8193;<br><br><h4>My Neighbor's Lonely Wife 2</h4><br><br>After moving to a new house, your stunningly beautiful neighbor, Haruka Aoi, quickly greets you. She’s 28 and lives together with her husband of six years. On top of her graceful beauty, she also has a very charming personality. However, she doesn’t seem to have any friends in the neighborhood…<br><br>Chat with Haruka and slowly deepen your relationship. There will be no force, hypnotism, or anything of the sort involved as you befriend her and seduce your way into her lonely heart.<br><br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/41075428/cee0d5d71e70fd64a86e913fbd11d2eceeef17e9.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/41075428/8e5afd0d25e1b783592dd721ef06fb6df59d94ca.png' class='newImg'>&#8193;<br><br><h4>My Neighbor's Lonely Wife</h4><br><br>A married couple recently moved into the apartment next door. While the husband’s never home due to work, you start developing a crush on his wife, Niiyama Akiho. Spend time with Akiho, comfort her, and steal her affection!<br><br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/41075428/a90471d575a2b6693dedc48d6eef7c8b3ec928c5.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/41075428/dcad748eeb574297d078cc23b17852ccc67a1ea0.jpg' class='newImg'>&#8193;<br><br><h4>【Add to wishlist】</h4><br><br>Mango Party offers high-quality localized translations, allowing both new and old players to immerse themselves in the intricate storyline crafted by Yasaniki. “My Neighbor's Lonely Wife “ will be released on June 24th, and “My Neighbor's Lonely Wife 2” will be released on June 28th. Stay tuned and I look forward to it!<br><br>&#8192;<a href='https://store.steampowered.com/app/2274980'>&#8193;LINK&#8192;</a>&#8193;&nbsp;&#8192;<a href='https://store.steampowered.com/app/2289960'>&#8193;LINK&#8192;</a>&#8193;&nbsp;<br>You may also like the following:<br><br>[hr][/hr]<br><h4>Sexy Room</h4><br><br>&#8192;<img src='https://cdn.cloudflare.steamstatic.com/steam/apps/2329630/library_600x900_2x.jpg' class='newImg'>&#8193; <br><br>You are reunited with an old college senpai, Vanessa Lee. The two of you used to be inseparable before you parted ways and lost contact with her. While catching up with each other's lives, you learn that she got married...<br><br>That sends you tumbling into a pit of despair, but before you know it, you are teleported to a room by a higher power: A room that the two of you can only leave AFTER you have sex. Not wanting to be trapped forever, you and Vanessa do the deed.<br><br>Imagine your surprise when you and Vanessa are teleported again and again, day after day, into this mysterious room. Is it a prank by a higher power, or are they just fulfilling your wishes?<br><br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/41075428/2fbf7bfc68fb0bab354bb03a5bf01bd16878fd9e.png' class='newImg'>&#8193;<br><br><h4>【Add to wishlist】 </h4><br><br>&#8192;<a href='https://store.steampowered.com/app/2329630'>&#8193;LINK&#8192;</a>&#8193;&nbsp;<br><h5><span style='font-weight:bold'> Follow us!</span></h5>[hr][/hr]<br>&#8192;&#8192;<a href='https://store.steampowered.com/publisher/MangoParty'>&#8193;&#8192;<img src='https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/41075428/e3462ce8ea4a472a9fd5e383ff2b3a9e9fc5e14c.jpg' class='newImg'>&#8193;&#8192;</a>&#8193;&#8193;<br>[list] [*]&#8192;&#8192;<a href='https://store.steampowered.com/publisher/MangoParty'>&#8193;<span style='font-weight:bold'> Steam Publishr Page </span> &#8192;</a>&#8193;&#8193;[*]&#8192;&#8192;<a href='https://twitter.com/MangoPartyGames'>&#8193; <span style='font-weight:bold'> Twitter </span> &#8192;</a>&#8193;&#8193; [*]&#8192;&#8192;<a href='https://www.facebook.com/MangoPartyGames'>&#8193; <span style='font-weight:bold'> Facebook </span> &#8192;</a>&#8193;&#8193; [*]&#8192;&#8192;<a href='https://discord.com/invite/WdEqYT3'>&#8193; <span style='font-weight:bold'> Discord </span> &#8192;</a>&#8193;&#8193; [/list] <h5><span style='font-style:italic'> Mango Party: Bringing awesome hentai games to you. </span></h5>]<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687174002,
+      "appid": 2229480,
+      "appName": "The Heroines' Last Anthem",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/41075428/073da1cc197494f6b9556d10eab852b6c6b0985d.jpg",
+        "https://clan.cloudflare.steamstatic.com/images/41075428/cee0d5d71e70fd64a86e913fbd11d2eceeef17e9.png",
+        "https://clan.cloudflare.steamstatic.com/images/41075428/8e5afd0d25e1b783592dd721ef06fb6df59d94ca.png",
+        "https://clan.cloudflare.steamstatic.com/images/41075428/a90471d575a2b6693dedc48d6eef7c8b3ec928c5.png",
+        "https://clan.cloudflare.steamstatic.com/images/41075428/dcad748eeb574297d078cc23b17852ccc67a1ea0.jpg",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/2329630/library_600x900_2x.jpg",
+        "https://clan.cloudflare.steamstatic.com/images/41075428/2fbf7bfc68fb0bab354bb03a5bf01bd16878fd9e.png",
+        "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/41075428/e3462ce8ea4a472a9fd5e383ff2b3a9e9fc5e14c.jpg"
+      ]
+    },
+    {
+      "title": "The bestselling NTR series, \" My Neighbor's Lonely Wife\", is getting back-to-back releases at the end of this month with English localization!",
+      "author": "Chet",
+      "contents": "&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/41075428/073da1cc197494f6b9556d10eab852b6c6b0985d.jpg' class='newImg'>&#8193;<br><br><h4>My Neighbor's Lonely Wife 2</h4><br><br>After moving to a new house, your stunningly beautiful neighbor, Haruka Aoi, quickly greets you. She’s 28 and lives together with her husband of six years. On top of her graceful beauty, she also has a very charming personality. However, she doesn’t seem to have any friends in the neighborhood…<br><br>Chat with Haruka and slowly deepen your relationship. There will be no force, hypnotism, or anything of the sort involved as you befriend her and seduce your way into her lonely heart.<br><br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/41075428/cee0d5d71e70fd64a86e913fbd11d2eceeef17e9.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/41075428/8e5afd0d25e1b783592dd721ef06fb6df59d94ca.png' class='newImg'>&#8193;<br><br><h4>My Neighbor's Lonely Wife</h4><br><br>A married couple recently moved into the apartment next door. While the husband’s never home due to work, you start developing a crush on his wife, Niiyama Akiho. Spend time with Akiho, comfort her, and steal her affection!<br><br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/41075428/a90471d575a2b6693dedc48d6eef7c8b3ec928c5.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/41075428/dcad748eeb574297d078cc23b17852ccc67a1ea0.jpg' class='newImg'>&#8193;<br><br><h4>【Add to wishlist】</h4><br><br>Mango Party offers high-quality localized translations, allowing both new and old players to immerse themselves in the intricate storyline crafted by Yasaniki. “My Neighbor's Lonely Wife “ will be released on June 24th, and “My Neighbor's Lonely Wife 2” will be released on June 28th. Stay tuned and I look forward to it!<br><br>&#8192;<a href='https://store.steampowered.com/app/2274980'>&#8193;LINK&#8192;</a>&#8193;&nbsp;&#8192;<a href='https://store.steampowered.com/app/2289960'>&#8193;LINK&#8192;</a>&#8193;&nbsp;<br>You may also like the following:<br><br>[hr][/hr]<br><h4>Sexy Room</h4><br><br>&#8192;<img src='https://cdn.cloudflare.steamstatic.com/steam/apps/2329630/library_600x900_2x.jpg' class='newImg'>&#8193; <br><br>You are reunited with an old college senpai, Vanessa Lee. The two of you used to be inseparable before you parted ways and lost contact with her. While catching up with each other's lives, you learn that she got married...<br><br>That sends you tumbling into a pit of despair, but before you know it, you are teleported to a room by a higher power: A room that the two of you can only leave AFTER you have sex. Not wanting to be trapped forever, you and Vanessa do the deed.<br><br>Imagine your surprise when you and Vanessa are teleported again and again, day after day, into this mysterious room. Is it a prank by a higher power, or are they just fulfilling your wishes?<br><br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/41075428/2fbf7bfc68fb0bab354bb03a5bf01bd16878fd9e.png' class='newImg'>&#8193;<br><br><h4>【Add to wishlist】 </h4><br><br>&#8192;<a href='https://store.steampowered.com/app/2329630'>&#8193;LINK&#8192;</a>&#8193;&nbsp;<br><h5><span style='font-weight:bold'> Follow us!</span></h5>[hr][/hr]<br>&#8192;&#8192;<a href='https://store.steampowered.com/publisher/MangoParty'>&#8193;&#8192;<img src='https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/41075428/e3462ce8ea4a472a9fd5e383ff2b3a9e9fc5e14c.jpg' class='newImg'>&#8193;&#8192;</a>&#8193;&#8193;<br>[list] [*]&#8192;&#8192;<a href='https://store.steampowered.com/publisher/MangoParty'>&#8193;<span style='font-weight:bold'> Steam Publishr Page </span> &#8192;</a>&#8193;&#8193;[*]&#8192;&#8192;<a href='https://twitter.com/MangoPartyGames'>&#8193; <span style='font-weight:bold'> Twitter </span> &#8192;</a>&#8193;&#8193; [*]&#8192;&#8192;<a href='https://www.facebook.com/MangoPartyGames'>&#8193; <span style='font-weight:bold'> Facebook </span> &#8192;</a>&#8193;&#8193; [*]&#8192;&#8192;<a href='https://discord.com/invite/WdEqYT3'>&#8193; <span style='font-weight:bold'> Discord </span> &#8192;</a>&#8193;&#8193; [/list] <h5><span style='font-style:italic'> Mango Party: Bringing awesome hentai games to you. </span></h5>]<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687174002,
+      "appid": 2176570,
+      "appName": "GobShaman's Servent",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/41075428/073da1cc197494f6b9556d10eab852b6c6b0985d.jpg",
+        "https://clan.cloudflare.steamstatic.com/images/41075428/cee0d5d71e70fd64a86e913fbd11d2eceeef17e9.png",
+        "https://clan.cloudflare.steamstatic.com/images/41075428/8e5afd0d25e1b783592dd721ef06fb6df59d94ca.png",
+        "https://clan.cloudflare.steamstatic.com/images/41075428/a90471d575a2b6693dedc48d6eef7c8b3ec928c5.png",
+        "https://clan.cloudflare.steamstatic.com/images/41075428/dcad748eeb574297d078cc23b17852ccc67a1ea0.jpg",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/2329630/library_600x900_2x.jpg",
+        "https://clan.cloudflare.steamstatic.com/images/41075428/2fbf7bfc68fb0bab354bb03a5bf01bd16878fd9e.png",
+        "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/41075428/e3462ce8ea4a472a9fd5e383ff2b3a9e9fc5e14c.jpg"
+      ]
+    },
+    {
+      "title": "The bestselling NTR series, \" My Neighbor's Lonely Wife\", is getting back-to-back releases at the end of this month with English localization!",
+      "author": "Chet",
+      "contents": "&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/41075428/073da1cc197494f6b9556d10eab852b6c6b0985d.jpg' class='newImg'>&#8193;<br><br><h4>My Neighbor's Lonely Wife 2</h4><br><br>After moving to a new house, your stunningly beautiful neighbor, Haruka Aoi, quickly greets you. She’s 28 and lives together with her husband of six years. On top of her graceful beauty, she also has a very charming personality. However, she doesn’t seem to have any friends in the neighborhood…<br><br>Chat with Haruka and slowly deepen your relationship. There will be no force, hypnotism, or anything of the sort involved as you befriend her and seduce your way into her lonely heart.<br><br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/41075428/cee0d5d71e70fd64a86e913fbd11d2eceeef17e9.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/41075428/8e5afd0d25e1b783592dd721ef06fb6df59d94ca.png' class='newImg'>&#8193;<br><br><h4>My Neighbor's Lonely Wife</h4><br><br>A married couple recently moved into the apartment next door. While the husband’s never home due to work, you start developing a crush on his wife, Niiyama Akiho. Spend time with Akiho, comfort her, and steal her affection!<br><br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/41075428/a90471d575a2b6693dedc48d6eef7c8b3ec928c5.png' class='newImg'>&#8193;<br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/41075428/dcad748eeb574297d078cc23b17852ccc67a1ea0.jpg' class='newImg'>&#8193;<br><br><h4>【Add to wishlist】</h4><br><br>Mango Party offers high-quality localized translations, allowing both new and old players to immerse themselves in the intricate storyline crafted by Yasaniki. “My Neighbor's Lonely Wife “ will be released on June 24th, and “My Neighbor's Lonely Wife 2” will be released on June 28th. Stay tuned and I look forward to it!<br><br>&#8192;<a href='https://store.steampowered.com/app/2274980'>&#8193;LINK&#8192;</a>&#8193;&nbsp;&#8192;<a href='https://store.steampowered.com/app/2289960'>&#8193;LINK&#8192;</a>&#8193;&nbsp;<br>You may also like the following:<br><br>[hr][/hr]<br><h4>Sexy Room</h4><br><br>&#8192;<img src='https://cdn.cloudflare.steamstatic.com/steam/apps/2329630/library_600x900_2x.jpg' class='newImg'>&#8193; <br><br>You are reunited with an old college senpai, Vanessa Lee. The two of you used to be inseparable before you parted ways and lost contact with her. While catching up with each other's lives, you learn that she got married...<br><br>That sends you tumbling into a pit of despair, but before you know it, you are teleported to a room by a higher power: A room that the two of you can only leave AFTER you have sex. Not wanting to be trapped forever, you and Vanessa do the deed.<br><br>Imagine your surprise when you and Vanessa are teleported again and again, day after day, into this mysterious room. Is it a prank by a higher power, or are they just fulfilling your wishes?<br><br>&#8192;<img src='https://clan.cloudflare.steamstatic.com/images/41075428/2fbf7bfc68fb0bab354bb03a5bf01bd16878fd9e.png' class='newImg'>&#8193;<br><br><h4>【Add to wishlist】 </h4><br><br>&#8192;<a href='https://store.steampowered.com/app/2329630'>&#8193;LINK&#8192;</a>&#8193;&nbsp;<br><h5><span style='font-weight:bold'> Follow us!</span></h5>[hr][/hr]<br>&#8192;&#8192;<a href='https://store.steampowered.com/publisher/MangoParty'>&#8193;&#8192;<img src='https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/41075428/e3462ce8ea4a472a9fd5e383ff2b3a9e9fc5e14c.jpg' class='newImg'>&#8193;&#8192;</a>&#8193;&#8193;<br>[list] [*]&#8192;&#8192;<a href='https://store.steampowered.com/publisher/MangoParty'>&#8193;<span style='font-weight:bold'> Steam Publishr Page </span> &#8192;</a>&#8193;&#8193;[*]&#8192;&#8192;<a href='https://twitter.com/MangoPartyGames'>&#8193; <span style='font-weight:bold'> Twitter </span> &#8192;</a>&#8193;&#8193; [*]&#8192;&#8192;<a href='https://www.facebook.com/MangoPartyGames'>&#8193; <span style='font-weight:bold'> Facebook </span> &#8192;</a>&#8193;&#8193; [*]&#8192;&#8192;<a href='https://discord.com/invite/WdEqYT3'>&#8193; <span style='font-weight:bold'> Discord </span> &#8192;</a>&#8193;&#8193; [/list] <h5><span style='font-style:italic'> Mango Party: Bringing awesome hentai games to you. </span></h5>]<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687174002,
+      "appid": 2203290,
+      "appName": "KaiJu Girls",
+      "images": [
+        "https://clan.cloudflare.steamstatic.com/images/41075428/073da1cc197494f6b9556d10eab852b6c6b0985d.jpg",
+        "https://clan.cloudflare.steamstatic.com/images/41075428/cee0d5d71e70fd64a86e913fbd11d2eceeef17e9.png",
+        "https://clan.cloudflare.steamstatic.com/images/41075428/8e5afd0d25e1b783592dd721ef06fb6df59d94ca.png",
+        "https://clan.cloudflare.steamstatic.com/images/41075428/a90471d575a2b6693dedc48d6eef7c8b3ec928c5.png",
+        "https://clan.cloudflare.steamstatic.com/images/41075428/dcad748eeb574297d078cc23b17852ccc67a1ea0.jpg",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/2329630/library_600x900_2x.jpg",
+        "https://clan.cloudflare.steamstatic.com/images/41075428/2fbf7bfc68fb0bab354bb03a5bf01bd16878fd9e.png",
+        "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/41075428/e3462ce8ea4a472a9fd5e383ff2b3a9e9fc5e14c.jpg"
+      ]
+    },
+    {
+      "title": "ToT Version 1.02",
+      "author": "newtales.info",
+      "contents": "Dragon bug fixed<br>Minor bugs/glitches fixed<br>Taevan Fight (Exitum): reduced Taevan Hp regen<br>Kelcie added to the Dream Room (endgame)<br>Minor translation errors fixed (ita-eng)<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687165013,
+      "appid": 2184180,
+      "appName": "Tales of Therapy",
+      "images": []
+    },
+    {
+      "title": "MINI UPDATE 0619",
+      "author": "WHAT' S UP GAME LABS",
+      "contents": "Bug Fix for cloud save system.<br>",
+      "feedlabel": "Community Announcements",
+      "date": 1687163482,
+      "appid": 2187180,
+      "appName": "Rabat Protocol Playtest",
+      "images": []
+    }
+  ]
+}

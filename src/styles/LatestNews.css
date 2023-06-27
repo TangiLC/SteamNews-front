@@ -1,12 +1,30 @@
+body {
+    background: #171A21;
+    color:white;
+}
+
 .latest-news {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    color:white;
+   
   }
   
   .news-item {
+    display: flex;
+    flex-direction: column;
     width: 48%;
     padding: 10px;
+    margin : 2px;
+    background:#000000;
+    border : 1px solid grey;
+  }
+
+  .news-header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
   }
 
   @media (max-width:768px){

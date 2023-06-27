@@ -18,17 +18,24 @@ const LatestNews = () => {
 
   }, []);
 
+    function formatDate(millisecEpoch) {
+        return new Date(millisecEpoch)
+    }
+
   return (
+    <div><h2>Latest News of the week</h2>
     <div className="latest-news">
-      <h2>Latest News of the week</h2>
+      
       {miniNewsList && miniNewsList.map((miniNews) => (
         <div className="news-item" key={miniNews.appid+miniNews.date}>
-          <h3 className="news-name">{miniNews.appName}</h3>
-          <p className="news-date">Date : {miniNews.date}</p>
+          <div className="news-header">
+            <h3 className="news-name">{miniNews.appName}</h3>
+            <p className="news-date">Date : {formatDate(miniNews.date)}</p>
+          </div>
           <div className="news-content" dangerouslySetInnerHTML={ { __html: miniNews.contents}}></div>
         </div> 
       ))}
-    </div>
+    </div></div>
   );
 };
 
