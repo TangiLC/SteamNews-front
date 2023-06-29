@@ -16,7 +16,7 @@ const SearchList = () => {
 }
 
   useEffect(() => {
-    let queryUrl='http://localhost:3000/v1/games?search='+query.value;    
+    let queryUrl='http://localhost:3000/v1/games?search='+query.query.valueOf();    
     
     fetch(queryUrl)
     .then(response => response.json())
@@ -30,7 +30,7 @@ const SearchList = () => {
 
 
   return (
-    <div><h2 dangerouslySetInnerHTML={{ __html: 'List of Games containing '+query.value+" : " }}></h2>
+    <div><h2 dangerouslySetInnerHTML={{ __html: 'List of Games containing '+query.query.valueOf()+" : " }}></h2>
     <div className="latest-news">
       
       {queryList && queryList.map((game) => (

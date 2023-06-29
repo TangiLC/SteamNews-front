@@ -14,14 +14,14 @@ const SearchForm = () => {
   const handleSubmit = (event) => {
     setValue(event.target.value.toLowerCase())
     event.preventDefault();
-    navigate(`/SearchPage/query=${encodeURIComponent(event.target.value)}`);
+    navigate(`/SearchPage/${encodeURIComponent(event.target.value)}`);
   };
   
   const handleInputChange = (event) => {
     setValue(event.target.value.toLowerCase())
     const query = event.target.value;
     if (query.length > 3) {
-      navigate(`/SearchPage/query=${encodeURIComponent(query)}`);
+      navigate(`/SearchPage/${encodeURIComponent(query)}`);
     }
   };
   
