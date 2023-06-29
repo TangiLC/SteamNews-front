@@ -30,7 +30,7 @@ const SearchList = () => {
 
 
   return (
-    <div><h2 dangerouslySetInnerHTML={{ __html: 'List of Games containing '+query.query.valueOf()+" : " }}></h2>
+    <div><h1 dangerouslySetInnerHTML={{ __html: `List of Games' Name containing "${query.query.valueOf()}" : ` }}></h1>
     <div className="latest-news">
       
       {queryList && queryList.map((game) => (

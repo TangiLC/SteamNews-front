@@ -29,7 +29,7 @@ const LatestNews = () => {
     }
 
   return (
-    <div><h2>Latest News of the week</h2>
+    <div><h1>Latest News of the week</h1>
     <div className="latest-news">
       
       {miniNewsList && miniNewsList.map((miniNews) => (

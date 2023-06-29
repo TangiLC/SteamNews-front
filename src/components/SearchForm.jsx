@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useNavigate } from "react-router-dom";
+import React, { useState , useEffect} from 'react';
+import { useNavigate, useParams } from "react-router-dom";
 
 import searchSvg from '../assets/search.svg'
 import SearchPage from '../pages/SearchPage'
@@ -9,7 +9,11 @@ import '../styles/SearchBar.css';
 const SearchForm = () => {
   const [value, setValue] = useState('');
   const navigate = useNavigate();
+  let query = useParams();
 
+  useEffect(() => {
+  if (query.query && query.query !==''){setValue(query.query.valueOf())}
+}, [query])
  
   const handleSubmit = (event) => {
     setValue(event.target.value.toLowerCase())
@@ -33,7 +37,7 @@ const SearchForm = () => {
       <input className="searchBox" placeholder="type game name here..."
         type="text" 
         value={value}
-        onChange={handleInputChange}
+        onChange={handleInputChange} autoFocus
       />
       <button type="submit" className="searchButton"><img src={searchSvg} alt="search" className="searchImg" /></button>
     </form>
