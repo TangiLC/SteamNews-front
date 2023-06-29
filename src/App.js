@@ -23,6 +23,7 @@ function App() {
       <Route path="/SearchPage/:query" element ={<SearchPage />} />
       <Route path="/ArticlePage" element={<ArticlePage />} />
       <Route path="/GamePage" element={<GamePage />} />
+      <Route path="/GamePage/:appId" element ={<GamePage />} />
               
     </Routes>
   );

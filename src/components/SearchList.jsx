@@ -6,13 +6,17 @@ import GamePage from '../pages/GamePage';
 import { SearchQuery } from '../App';
 
 
+
 const SearchList = () => {
   const [queryList, setQueryList] = useState([]);
   const [activePage, setActivePage] = useState([]);
   let query = useParams();
+  const navigate = useNavigate();
   
-    const handlePageChange = (page) => {
-    setActivePage(page);
+  const handlePageChange = (appId,appName) => {
+    let gameName = appName.replaceAll(' ','&#160;');
+    let param = appId+'|'+gameName;
+    navigate(`/GamePage/${encodeURIComponent(param)}`);
 }
 
   useEffect(() => {
@@ -37,7 +41,7 @@ const SearchList = () => {
     <div className="latest-news">
       
       {queryList && queryList.map((game) => (
-        <div className="news-item" key={game.appid} onClick={() => handlePageChange('GamePage')}>
+        <div className="news-item" key={game.appid} onClick={() => handlePageChange(game.appid,game.name)}>
           <div className="news-header">
             <h2 className="news-name">{game.name}</h2>
             <p className="news-date">{game.appid}</p>

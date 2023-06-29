@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate, useParams } from "react-router-dom";
 import '../styles/LatestNews.css';
 
 import GamePage from '../pages/GamePage';
@@ -7,8 +8,13 @@ import GamePage from '../pages/GamePage';
 const LatestNews = () => {
   const [miniNewsList, setMiniNewsList] = useState([]);
   const [activePage, setActivePage] = useState([]);
-    const handlePageChange = (page) => {
-    setActivePage(page);
+
+  const navigate = useNavigate();
+
+  const handlePageChange = (appId,appName) => {
+    let gameName = appName.replaceAll(' ','&#160;');
+    let param = appId+'|'+gameName;
+    navigate(`/GamePage/${encodeURIComponent(param)}`);
 }
 
   useEffect(() => {
@@ -33,7 +39,7 @@ const LatestNews = () => {
     <div className="latest-news">
       
       {miniNewsList && miniNewsList.map((miniNews) => (
-        <div className="news-item" key={miniNews.appid+miniNews.date} onClick={() => handlePageChange('GamePage')}>
+        <div className="news-item" key={miniNews.appid+miniNews.date} onClick={() => handlePageChange(miniNews.appid,miniNews.appName)}>
           <div className="news-header">
             <h2 className="news-name">{miniNews.appName}</h2>
             <p className="news-date">{formatDate(miniNews.date*1000)}</p>
