@@ -1,9 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/LatestNews.css';
 
+import GamePage from '../pages/GamePage';
+
 
 const LatestNews = () => {
   const [miniNewsList, setMiniNewsList] = useState([]);
+  const [activePage, setActivePage] = useState([]);
+    const handlePageChange = (page) => {
+    setActivePage(page);
+}
 
   useEffect(() => {
         
@@ -16,10 +22,10 @@ const LatestNews = () => {
      })
     .catch(error => console.log("erreur de fetch :",error))
 
-  }, []);
+  }, [miniNewsList]);
 
     function formatDate(millisecEpoch) {
-        return new Date(millisecEpoch)
+        return new Date(millisecEpoch).toLocaleDateString();
     }
 
   return (
@@ -27,11 +33,12 @@ const LatestNews = () => {
     <div className="latest-news">
       
       {miniNewsList && miniNewsList.map((miniNews) => (
-        <div className="news-item" key={miniNews.appid+miniNews.date}>
+        <div className="news-item" key={miniNews.appid+miniNews.date} onClick={() => handlePageChange('GamePage')}>
           <div className="news-header">
-            <h3 className="news-name">{miniNews.appName}</h3>
-            <p className="news-date">Date : {formatDate(miniNews.date)}</p>
+            <h2 className="news-name">{miniNews.appName}</h2>
+            <p className="news-date">{formatDate(miniNews.date*1000)}</p>
           </div>
+          <div className="news-title">{miniNews.title}</div>
           <div className="news-content" dangerouslySetInnerHTML={ { __html: miniNews.contents}}></div>
         </div> 
       ))}

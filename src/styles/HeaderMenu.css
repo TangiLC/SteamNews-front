@@ -15,6 +15,16 @@
     font-size: 18px;
   }
   
+  .menu-img {
+    filter:invert(90%) sepia(29%) saturate(134%) hue-rotate(21deg) brightness(106%) contrast(92%);
+    height:0.9em;
+  }
+
+  .menu-img li:active{
+    filter:invert(99%) sepia(100%) saturate(0%) hue-rotate(337deg) brightness(104%) contrast(102%);
+    height:0,95em;
+  }
+
   .menu-icon {
     display: none;
     cursor: pointer;
@@ -33,6 +43,8 @@
     list-style-type: none;
     margin: 0;
     padding: 4px;
+    width: 70%;
+    justify-content: space-between;
   }
   
   .menu-items li {
@@ -43,12 +55,13 @@
   
   .menu-items li:hover {
     color: white;
+    border-bottom: 2px solid white;
   }
   
   .menu-items li.active {
     font-weight: bold;
     color : white;
-    fill:white;
+    border-bottom: 3px solid white;
   }
   
   @media (max-width: 768px) {

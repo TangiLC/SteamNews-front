@@ -8,18 +8,45 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     color:white;
-   
+    width:96%;
+    margin : auto;
+    gap:2%;
   }
   
   .news-item {
     display: flex;
     flex-direction: column;
-    width: 48%;
+    position: relative;
+    overflow: hidden;
+    width: 46%;
     padding: 10px;
-    margin : 2px;
+    margin : 5px;
     background:#000000;
-    border : 1px solid grey;
+    
   }
+  .news-item:after{
+    content:"";
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    margin:-25px;
+    width:40px;
+    height:40px;
+    transform: rotate(45deg);
+    background-color: #171A21;
+    border:2px dotted darkgray;
+    
+
+  }
+
+.news-title{
+    font-weight:700;
+    color: beige;
+}
+.news-date{
+    font-weight:200;
+    color: beige;
+}
 
   .news-header {
     display: flex;
