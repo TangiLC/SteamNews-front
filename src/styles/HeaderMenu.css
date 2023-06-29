@@ -10,17 +10,18 @@
     font-size : 24px;
   }
   
-  .logo {
-    font-weight: bold;
-    font-size: 18px;
+  .logo img{
+    width:30px;
+    height:auto;
   }
   
   .menu-img {
     filter:invert(90%) sepia(29%) saturate(134%) hue-rotate(21deg) brightness(106%) contrast(92%);
     height:0.9em;
+    padding-right:3px;
   }
 
-  .menu-img li:active{
+  .menu-img div:active{
     filter:invert(99%) sepia(100%) saturate(0%) hue-rotate(337deg) brightness(104%) contrast(102%);
     height:0,95em;
   }
@@ -40,25 +41,31 @@
   
   .menu-items {
     display: flex;
-    list-style-type: none;
+    flex-direction: row;
     margin: 0;
-    padding: 4px;
-    width: 70%;
+    padding-right: 50px;
+    width: 100%;
+    text-decoration: none;
+    color : beige;
     justify-content: space-between;
+    gap:3%;
   }
-  
-  .menu-items li {
+  .menu-items a {
+    color : beige;
+    text-decoration: none;
+  }
+  .menu-items div {
     margin-right: 10px;
     cursor: pointer;
     transition: 0.2s;
   }
   
-  .menu-items li:hover {
+  .menu-items div:hover {
     color: white;
     border-bottom: 2px solid white;
   }
   
-  .menu-items li.active {
+  .active {
     font-weight: bold;
     color : white;
     border-bottom: 3px solid white;

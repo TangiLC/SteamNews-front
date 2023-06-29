@@ -5,6 +5,7 @@ import './styles/index.css';
 
 import HeaderMenu from './components/HeaderMenu';
 import SearchForm from './components/SearchBar';
+import App from './App.js'
 
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import NewsPage from './pages/NewsPage';
@@ -20,14 +21,9 @@ root.render(
       <Router>
         <HeaderMenu />
         <SearchForm />
-          <Routes>
-              <Route path="/" element={<NewsPage />} />
-              <Route path="/NewsPage" element={<NewsPage />} />
-              <Route path="/SearchPage" element={<SearchPage />} />
-              <Route path="/ArticlePage" element={<ArticlePage />} />
-              <Route path="/GamePage" element={<GamePage />} />
-              
-          </Routes>
+        
+        <App/>
+  
       </Router>
   </React.StrictMode>,
 document.getElementById('root')

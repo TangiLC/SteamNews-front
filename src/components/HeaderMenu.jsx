@@ -8,6 +8,7 @@ import gameSvg from '../assets/game.svg'
 import searchSvg from '../assets/search.svg'
 import articleSvg from '../assets/article.svg'
 
+import logo from '../assets/logo.png';
 import NewsPage from '../pages/NewsPage';
 import ArticlePage from '../pages/ArticlePage';
 import GamePage from '../pages/GamePage';
@@ -29,41 +30,43 @@ function HeaderMenu (activePg) {
 
   return (
     <div className="header-menu">
-      <div className="logo">Logo</div>
+      <div className="logo"><img src={logo} alt="logo"/></div>
 
+      <nav>
+      <div className={`menu-items ${menuOpen ? 'open' : ''}`}>
+        
+        <div className={activePage === 'NewsPage' ? 'active' : ''}>
+        
+          <img src={newsSvg} alt="news" className="menu-img" />
+          <Link to="/NewsPage">News
+          </Link>
+        </div>
+        <div className={activePage === 'ArticlePage' ? 'active' : ''}>
+          
+          <img src={articleSvg} alt="article" className="menu-img" />
+          <Link to="/ArticlePage">Article
+          </Link>
+        </div>
+        <div className={activePage === 'GamePage' ? 'active' : ''}>
+        
+          <img src={gameSvg} alt="game" className="menu-img" />
+          <Link to="/GamePage">Game
+          </Link>
+        </div>
+        <div className={activePage === 'SearchPage' ? 'active' : ''}>          
+        
+          <img src={searchSvg} alt="search" className="menu-img" />
+          <Link to="/SearchPage">Search
+          </Link>
+        </div>
+        
+      </div>
+      </nav>
       <div className={`menu-icon ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
         <div className="bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>
       </div>
-      <nav>
-      <ul className={`menu-items ${menuOpen ? 'open' : ''}`}>
-        <li className={activePage === 'NewsPage' ? 'active' : ''}>
-        <link to="/NewsPage">
-          <img src={newsSvg} alt="news" className="menu-img" />
-          News
-          </link>
-        </li>
-        <li className={activePage === 'ArticlePage' ? 'active' : ''}>
-          <link to="/ArticlePage">
-          <img src={articleSvg} alt="article" className="menu-img" />
-          Article
-          </link>
-        </li>
-        <li className={activePage === 'GamePage' ? 'active' : ''}>
-        <link to="/GamePage">
-          <img src={gameSvg} alt="game" className="menu-img" />
-          Game
-          </link>
-        </li>
-        <li className={activePage === 'SearchPage' ? 'active' : ''}>          
-        <link to="/SearchPage">
-          <img src={searchSvg} alt="search" className="menu-img" />
-          Search
-          </link>
-        </li>
-      </ul>
-      </nav>
     </div>
  
 
