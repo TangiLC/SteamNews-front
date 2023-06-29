@@ -27,10 +27,13 @@ const SearchList = () => {
     .catch(error => console.log("erreur de fetch :",error))
 
   }, [query,queryList]);
-
+  let errorMssg='';
+  if(queryList.length===0){errorMssg='(Ծ︵Ծ) NO GAME FOUND'}
 
   return (
-    <div><h1 dangerouslySetInnerHTML={{ __html: `List of Games' Name containing "${query.query.valueOf()}" : ` }}></h1>
+    <div>
+      <h1 dangerouslySetInnerHTML={{ __html: `List of Games' Name containing "${query.query.valueOf()}" : (${queryList.length})` }}></h1>
+      {errorMssg !== "" && <h2>{errorMssg}</h2>}
     <div className="latest-news">
       
       {queryList && queryList.map((game) => (
