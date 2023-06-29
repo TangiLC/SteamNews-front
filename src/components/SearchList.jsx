@@ -9,14 +9,14 @@ import { SearchQuery } from '../App';
 const SearchList = () => {
   const [queryList, setQueryList] = useState([]);
   const [activePage, setActivePage] = useState([]);
-  let query = SearchQuery();
+  let query = useParams();
   
     const handlePageChange = (page) => {
     setActivePage(page);
 }
 
   useEffect(() => {
-    let queryUrl='http://localhost:3000/v1/games?search='+query;    
+    let queryUrl='http://localhost:3000/v1/games?search='+query.value;    
     
     fetch(queryUrl)
     .then(response => response.json())
@@ -30,7 +30,7 @@ const SearchList = () => {
 
 
   return (
-    <div><h2 dangerouslySetInnerHTML={{ __html: 'List of Games containing '+query+" : " }}></h2>
+    <div><h2 dangerouslySetInnerHTML={{ __html: 'List of Games containing '+query.value+" : " }}></h2>
     <div className="latest-news">
       
       {queryList && queryList.map((game) => (
