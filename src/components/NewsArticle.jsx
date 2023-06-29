@@ -5,7 +5,7 @@ import '../styles/LatestNews.css';
 const NewsArticle = (searchTerm,data) => {
   
 
-  
+return(<h1>ARTICLE</h1>)  
      
       
    

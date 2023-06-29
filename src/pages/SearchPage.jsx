@@ -1,14 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '../styles/index.css';
-import SearchBar from '../components/SearchBar';
+import SearchForm from '../components/SearchForm';
 import HeaderMenu from '../components/HeaderMenu';
+import SearchList from '../components/SearchList';
 
 function SearchPage(){
 
 return(
-
-    <HeaderMenu />
+    <div>
+      <SearchForm />
+      <SearchList />
+    </div>
+    
     
 )}
 

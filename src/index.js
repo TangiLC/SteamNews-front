@@ -4,7 +4,7 @@ import {createRoot} from 'react-dom/client';
 import './styles/index.css';
 
 import HeaderMenu from './components/HeaderMenu';
-import SearchForm from './components/SearchBar';
+
 import App from './App.js'
 
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
@@ -20,7 +20,7 @@ root.render(
   <React.StrictMode>
       <Router>
         <HeaderMenu />
-        <SearchForm />
+        
         
         <App/>
   

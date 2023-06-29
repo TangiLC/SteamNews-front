@@ -5,7 +5,7 @@ import '../styles/LatestNews.css';
 const GameList = (searchTerm,data) => {
   
 
-  
+return(<h1>GAME LIST</h1>)    
      
       
    
