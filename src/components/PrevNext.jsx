@@ -2,23 +2,24 @@ import React from 'react';
 import '../styles/ArticleList.css';
 
 
-const PrevNext = (data) =>{
+const PrevNext = (datas) =>{
 
+    datas={'appid':0,'appName':'PrevNext','contents':'Lorem ipsum...','date':123456789,'author':'test','title':'TestPrevNext','images':[]}
     function formatDate(millisecEpoch) {
         return new Date(millisecEpoch).toLocaleDateString();
     }
 
 return(
-    <div className="news-item" key={data.appid + data.date}>
-        <div className="news-header">
-            <h3 className="news-index">±</h3>
-            <h2 className="news-name">{data.appName}</h2>
-            <div className="news-date">
-                <div>&#91;{data.author}&#93;</div>
-                <div>{formatDate(data.date * 1000)}</div>
+    <div className="prevNext-item" key={datas.appid + datas.date}>
+        <div className="article-header">
+            <h3 className="article-index">±</h3>
+            <h2 className="article-name">{datas.appName}</h2>
+            <div>
+                <div className="article-date">&#91;{datas.author}&#93;</div>
+                <div className="article-date">{formatDate(datas.date * 1000)}</div>
             </div>
         </div>
-    <div className="news-title">{data.title}</div>
+        <div className="article-title">{datas.title}</div>
     </div>
                         
 )}

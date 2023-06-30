@@ -23,7 +23,7 @@ const NewsArticle = () => {             //display full article and previous/next
     const [articleList, setArticleList] = useState('');    //fetch the full articles array
     useEffect(() => {
         async function fetchArticle() {
-            await fetch('http://localhost:3000/v1/news')
+            await fetch('http://localhost:3000/v1/news/')
                 .then((response) => response.json())
                 .then((data) => setArticleList(data.news), setIsLoaded(true))
                 .catch((error) => console.log('erreur de fetch :', error));
@@ -91,23 +91,23 @@ const NewsArticle = () => {             //display full article and previous/next
                     </div>
                 ) : (
                     <div
-                        className="news-item"
+                        className="article-item"
                         key={article.appid + article.date}
                         onClick={() =>
                             handlePageChange(article.appid, article.appName)
                         }
                     >
-                        <div className="news-header">
-                            <h3 className="news-index">N</h3>
-                            <h2 className="news-name">{article.appName}</h2>
-                            <div className="news-date">
+                        <div className="article-header">
+                            <h3 className="article-index">N</h3>
+                            <h2 className="article-name">{article.appName}</h2>
+                            <div className="article-date">
                                 <div>&#91;{article.author}&#93;</div>
                                 <div>{formatDate(article.date * 1000)}</div>
                             </div>
                         </div>
-                        <div className="news-title">{article.title}</div>
+                        <div className="article-title">{article.title}</div>
                         <div
-                            className="news-content"
+                            className="article-content"
                             dangerouslySetInnerHTML={{
                                 __html: article.contents,
                             }}
@@ -135,7 +135,7 @@ const NewsArticle = () => {             //display full article and previous/next
             <div className="article-game">{showArticle(articleList[articleIndex])}</div>
             <div className="article-footer">
                 <div className="article-prevNext" onClick={() => handleArticleChange(articleIndex-1)}>
-                    <div>
+                    <div className="left-arrow">
                         <img
                             src={LeftArrow}
                             alt="previous"
@@ -153,7 +153,7 @@ const NewsArticle = () => {             //display full article and previous/next
                 </div>
                 <div className="article-prevNext" onClick={() => handleArticleChange(articleIndex+1)}>
                     <div className="prevNext-content">{PrevNext(articleList[articleNext])}</div>
-                    <div>
+                    <div className="right-arrow">
                         <img
                             src={RightArrow}
                             alt="next"
