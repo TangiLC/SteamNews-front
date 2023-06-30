@@ -9,12 +9,13 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     color:white;
+    width:85%;
     max-width:1200px;
     margin : auto;
     
   }
   
-  .game-item {
+  .news-item {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -25,7 +26,7 @@ body {
     background:#000000;
     
   }
-  .game-item:after{
+  .news-item:after{
     content:"";
     position:absolute;
     right:0px;

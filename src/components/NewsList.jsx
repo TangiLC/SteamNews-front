@@ -3,6 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import '../styles/LatestNews.css';
 
 import GamePage from '../pages/GamePage';
+import Loader from '../components/Loader.jsx';
 
 
 const LatestNews = () => {
@@ -34,6 +35,12 @@ const [miniNewsList, setMiniNewsList] = useState([]);
     }
 
   return (
+    <>
+                {(miniNewsList === undefined) ? (
+                    <div>
+                        <Loader />
+                    </div>
+                ) : (
     <div><h1>Latest News of The Week</h1>
     <div className="latest-news">
       
@@ -48,6 +55,8 @@ const [miniNewsList, setMiniNewsList] = useState([]);
         </div> 
       ))}
     </div></div>
+    )}
+    </>
   );
 };
 

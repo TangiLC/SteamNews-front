@@ -18,7 +18,7 @@ const NewsArticle = () => {             //display full article and previous/next
     if (articleIndex === undefined) {
         articleIndex = 0;
     }
-        
+
     const [isLoaded, setIsLoaded] = useState(false);
     const [articleList, setArticleList] = useState('');    //fetch the full articles array
     useEffect(() => {
@@ -31,18 +31,6 @@ const NewsArticle = () => {             //display full article and previous/next
         fetchArticle();
         console.log('useEffect lancé');
     }, [articleList]);
-
-    const [articlePrevious, setArticlePrevious] = useState();
-    useEffect(() => {
-        setArticlePrevious(articleIndex-1)
-        if (articlePrevious<0){setArticlePrevious(articleList.length-1)}
-    },[articleIndex,articleList.length,articlePrevious]);
-
-    const [articleNext, setArticleNext] = useState();
-    useEffect(() => {
-        setArticleNext(articleIndex+1)
-        if (articleNext>=articleList.length){setArticlePrevious(0)}
-    },[articleIndex,articleList.length,articleNext]);
 
 
     const handlePageChange = (appId, appName) => {        //reroute to Game page on click
@@ -77,6 +65,30 @@ const NewsArticle = () => {             //display full article and previous/next
             return `<img src='${url}' alt='game'>`;
         }
     }
+    
+
+    function createList(newsNb) {                 // prepare list of length=3 for carrousel display
+        
+        
+            let prev;
+            let nxt;
+            
+            newsNb === 0
+                ? (prev = articleList.length - 1)
+                : (prev = newsNb - 1);
+            newsNb === articleList.length - 1 ? (nxt = 0) : (nxt = newsNb + 1);
+
+            let myList=[];
+            myList.push(articleList[prev]);
+            myList.push(articleList[newsNb]);
+            myList.push(articleList[nxt]);
+            console.log(myList);
+            return myList;
+
+    }
+    const [articles, setArticles] = useState(''); 
+    useEffect(() => {setArticles(createList(articleIndex))},[articleIndex])  
+    //let articles = createList(articleIndex);
     
     const showArticle = (article) =>{
         
@@ -132,7 +144,7 @@ const NewsArticle = () => {             //display full article and previous/next
         <div>
             <h1>Latest News of The Week</h1>
             {errorMssg !== '' && <h2>{errorMssg}</h2>}
-            <div className="article-game">{showArticle(articleList[articleIndex])}</div>
+            <div className="article-game">{showArticle(articles[1])}</div>
             <div className="article-footer">
                 <div className="article-prevNext" onClick={() => handleArticleChange(articleIndex-1)}>
                     <div>
@@ -142,7 +154,7 @@ const NewsArticle = () => {             //display full article and previous/next
                             className="article-svg"
                         />
                     </div>
-                    <div className="prevNext-content">{PrevNext(articleList[articlePrevious])}</div>
+                    <div className="prevNext-content">{PrevNext(articles[0])}</div>
                 </div>
                 <div className="article-svg">
                     <img
@@ -152,7 +164,7 @@ const NewsArticle = () => {             //display full article and previous/next
                     />
                 </div>
                 <div className="article-prevNext" onClick={() => handleArticleChange(articleIndex+1)}>
-                    <div className="prevNext-content">{PrevNext(articleList[articleNext])}</div>
+                    <div className="prevNext-content">NEXT</div>
                     <div>
                         <img
                             src={RightArrow}

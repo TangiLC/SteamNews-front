@@ -44,7 +44,7 @@ function HeaderMenu (activePg) {
         <div className={activePage === 'ArticlePage' ? 'active' : ''}>
           
           <img src={articleSvg} alt="article" className="menu-img" />
-          <Link to="/ArticlePage">Article
+          <Link to="/ArticlePage/1">Article
           </Link>
         </div>
         <div className={activePage === 'GamePage' ? 'active' : ''}>
@@ -56,7 +56,7 @@ function HeaderMenu (activePg) {
         <div className={activePage === 'SearchPage' ? 'active' : ''}>          
         
           <img src={searchSvg} alt="search" className="menu-img" />
-          <Link to="/SearchPage">Search
+          <Link to="/SearchPage/search">Search
           </Link>
         </div>
         
