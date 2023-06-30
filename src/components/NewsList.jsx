@@ -6,7 +6,7 @@ import GamePage from '../pages/GamePage';
 
 
 const LatestNews = () => {
-  const [miniNewsList, setMiniNewsList] = useState([]);
+  
   const [activePage, setActivePage] = useState([]);
 
   const navigate = useNavigate();
@@ -14,19 +14,20 @@ const LatestNews = () => {
   const handlePageChange = (param) => {
     navigate(`/ArticlePage/${encodeURIComponent(param)}`);
 }
-
+const [miniNewsList, setMiniNewsList] = useState([]);
   useEffect(() => {
-        
+    async function fetchMini(){    
     fetch("http://localhost:3000/v1/news/miniature")
     .then(response => response.json())
     .then(data => {
         setMiniNewsList(data.miniatures);
-        console.log(data.miniatures);
-        console.log(miniNewsList);
      })
     .catch(error => console.log("erreur de fetch :",error))
-
+  }
+  fetchMini()
   }, [miniNewsList]);
+
+  
 
     function formatDate(millisecEpoch) {
         return new Date(millisecEpoch).toLocaleDateString();
