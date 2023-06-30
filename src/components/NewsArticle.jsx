@@ -5,13 +5,16 @@ import '../styles/GameList.css';
 import GamePage from '../pages/GamePage';
 import { SearchQuery } from '../App';
 import Loader from '../components/Loader.jsx'
+import articleSvg from '../assets/article.svg'
+import LeftArrow from '../assets/leftArrow.svg'
+import RightArrow from '../assets/rightArrow.svg'
 
 
 
 const NewsArticle = () => {
   const navigate = useNavigate();
   let query = useParams();
-  let articleIndex =parseInt(query.query.valueOf());
+  let articleIndex =parseInt(query.articleNb.valueOf());
   console.log("Article index",articleIndex)
   if(articleIndex ===undefined){articleIndex =0}
   
@@ -26,18 +29,18 @@ const handleArticleChange = (param) => {
     navigate(`/ArticlePage/${encodeURIComponent(param)}`);
 }
 
-const [articleList, setArticleList] = useState([]);
+const [isLoading, setIsLoading] = useState(true);
+const [articleList, setArticleList] = useState('');
 useEffect(() => {
-    console.log('useEffect lancé');    
-    fetch("http://localhost:3000/v1/news/")
-    .then(response => response.json())
-    .then(data => {
-        setArticleList(data.news);
-        console.log('A',articleList);
-     })
+    async function fetchArticle() {
+        await fetch("http://localhost:3000/v1/news/")
+            .then((response) => response.json())
+            .then((data) => setArticleList(data.news), setIsLoading(false))
     .catch(error => console.log("erreur de fetch :",error))
-
-  },[articleList]);
+    }
+    fetchArticle();  
+    console.log('useEffect lancé');  
+  },[]);
   
   let errorMssg='';
   if(articleList.length===0){errorMssg='(Ծ︵Ծ) NO NEWS FOUND'}
@@ -51,38 +54,62 @@ useEffect(() => {
     else {return (`<img src='${url}' alt='game'>`)}
   }
 
-  function showArticle(myList,newsNb){
-    let article=myList[newsNb];
+  function showArticle(newsNb){
+    if (isLoading){return(<div><Loader /></div>)}
+    else {
+    let prev; let nxt;
+    (newsNb===0)?prev=articleList.length-1:prev=newsNb-1;
+    (newsNb===articleList.length-1)?nxt=0:nxt=newsNb+1;
+
+    let myList=[]
+    myList.push(articleList[prev]);
+    myList.push(articleList[newsNb]);
+    myList.push(articleList[nxt]);
+    console.log(myList);
+
     return(
-        <div className="news-item" key={article.appid+article.date} onClick={() => handlePageChange(article.appId,article.appName)}>
+        <div className="news-item" key={myList[1].appid+myList[1].date} onClick={() => handlePageChange(myList[1].appId,myList[1].appName)}>
           <div className="news-header"><h3 className="news-index">{newsNb}</h3>
-            <h2 className="news-name">{article.appName}</h2>
+            <h2 className="news-name">{myList[1].appName}</h2>
             <div className="news-date">
-                <div>&#91;{article.author}&#93;</div>
-                <div>{formatDate(article.date*1000)}</div>
+                <div>&#91;{myList[1].author}&#93;</div>
+                <div>{formatDate(myList[1].date*1000)}</div>
             </div>
           </div>
-          <div className="news-title">{article.title}</div>
-          <div className="news-content" dangerouslySetInnerHTML={ { __html: article.contents}}></div>
-          <div className="game-img">{article.images.map((img) => (
+          <div className="news-title">{myList[1].title}</div>
+          <div className="news-content" dangerouslySetInnerHTML={{ __html: myList[1].contents}}></div>
+          <div className="game-img">{myList[1].images.map((img) => (
             <span className ='bottomImg' dangerouslySetInnerHTML={{ __html: processImg(img)}}/>)
           )}  </div>
-        </div>
-      )}
-
-
+        </div>)}
+    }
  
-
-  return (
-      <div>
+return (  
+    <div>
         <h1>Latest News of The Week</h1>
         {errorMssg !== "" && <h2>{errorMssg}</h2>}
         <div className="article-game">
-            {console.log(articleList[articleIndex])}
-            {showArticle(articleList,articleIndex)}
+            {showArticle(articleIndex)}
+        </div>
+        <div className="article-footer">
+            <div className="article-prevNext">
+                <div><img src={LeftArrow} alt="previous" className="article-svg" /></div>
+                <div className="prevNext-content">
+
+                </div>
+            </div>
+            <div className="article-svg">
+                <img src={articleSvg} alt="article" className="article-svg" /></div>
+            <div className="article-prevNext">
+                <div className="prevNext-content">
+
+                </div>
+                <div><img src={RightArrow} alt="next" className="article-svg" /></div>
+            </div>
         </div>
     </div>
+    
   )
-};
+}
 
 export default NewsArticle;
