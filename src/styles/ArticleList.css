@@ -1,0 +1,140 @@
+body {
+    background: #171A21;
+    color:white;
+}
+
+.article-game {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color:white;
+    max-width:1200px;
+    margin : auto;
+    
+  }
+  
+  .game-item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding: 5px;
+    margin : 5px;
+    background:#000000;
+    
+  }
+  .game-item:after{
+    content:"";
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    margin:-25px;
+    width:40px;
+    height:40px;
+    transform: rotate(45deg);
+    background-color: #171A21;
+    border:2px dotted darkgray;
+    
+
+  }
+
+.game-title{
+    font-weight:700;
+    color: beige;
+}
+.game-date{
+    font-weight:200;
+    color: beige;
+}
+
+  .game-header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+
+  @media (max-width:768px){
+    .game-item {
+        width:98%;
+    }
+  }
+
+  .game-name {
+    font-weight: bold;
+  }
+  
+  .game-date {
+    font-weight: bold;
+  }
+  
+  .game-content {
+    margin-top: 5px;
+  }
+  
+  .newImg {
+    width:90px;
+    height:auto;
+  }
+  .ytFrame {
+    display:none;
+  }
+
+.game-img{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  flex-wrap:wrap;
+  gap:2%;
+}
+
+  .bottomImg {
+    width:30%;
+    height:auto;
+  }
+
+  .bottomImg img {
+    max-width:100%;
+    height:auto;
+  }
+
+  .bottomImg iframe {
+    width:100%;
+    height:auto;
+  }
+
+  @media (max-width:768px){
+    .newImg {
+      width:70px;
+    }
+    .bottomImg {
+        width:47%;
+    }
+
+  }
+
+.article-footer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:90%;
+  margin: auto;
+}
+
+.article-prevNext{
+  display:flex;
+  flex-direction: row;
+  width:40%;
+  background-color: #000000;
+}
+.article-svg{
+  filter:invert(90%) sepia(29%) saturate(134%) hue-rotate(21deg) brightness(106%) contrast(92%);
+  height:30px;
+  padding:10px;
+}
+.prevNext-content{
+  display:flex;
+  flex-direction: column;
+  width:90%;
+}
