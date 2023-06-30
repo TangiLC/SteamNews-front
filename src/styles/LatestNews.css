@@ -48,6 +48,10 @@ body {
     color: beige;
 }
 
+.news-index{
+  color:#000000;
+}
+
   .news-header {
     display: flex;
     flex-direction: row;
@@ -64,9 +68,6 @@ body {
     font-weight: bold;
   }
   
-  .news-date {
-    font-weight: bold;
-  }
   
   .news-content {
     margin-top: 5px;

@@ -48,7 +48,7 @@ useEffect(() => {
   }
 
   function processImg(url){
-    if (url[0]==='y'){return (`<iframe src='${url.substring(1)}' class='ytFrame'></iframe>`)}
+    if (url[0]==='y'){return (`<iframe src='${url.substring(2)}?&autoplay=1&mute=1'></iframe>`)}
     else {return (`<img src='${url}' alt='game'>`)}
   }
 

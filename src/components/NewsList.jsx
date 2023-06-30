@@ -11,10 +11,8 @@ const LatestNews = () => {
 
   const navigate = useNavigate();
 
-  const handlePageChange = (appId,appName) => {
-    let gameName = appName.replaceAll(' ','&#160;');
-    let param = appId+'|'+gameName;
-    navigate(`/GamePage/${encodeURIComponent(param)}`);
+  const handlePageChange = (param) => {
+    navigate(`/ArticlePage/${encodeURIComponent(param)}`);
 }
 
   useEffect(() => {
@@ -35,12 +33,12 @@ const LatestNews = () => {
     }
 
   return (
-    <div><h1>Latest News of the week</h1>
+    <div><h1>Latest News of The Week</h1>
     <div className="latest-news">
       
-      {miniNewsList && miniNewsList.map((miniNews) => (
-        <div className="news-item" key={miniNews.appid+miniNews.date} onClick={() => handlePageChange(miniNews.appid,miniNews.appName)}>
-          <div className="news-header">
+      {miniNewsList && miniNewsList.map((miniNews,index) => (
+        <div className="news-item" key={miniNews.appid+miniNews.date} onClick={() => handlePageChange(index)}>
+          <div className="news-header"><h3 className="news-index">{index}</h3>
             <h2 className="news-name">{miniNews.appName}</h2>
             <p className="news-date">{formatDate(miniNews.date*1000)}</p>
           </div>
